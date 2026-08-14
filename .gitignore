@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+offers_snapshot.json
+dashboard.html
