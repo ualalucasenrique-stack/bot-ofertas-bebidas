@@ -1,0 +1,39 @@
+name: Scrapear ofertas y actualizar el panel
+
+# Corre con internet sin restricciones (a diferencia del entorno en la nube
+# de Claude, que solo puede llegar a una lista blanca de dominios). Deja
+# dashboard.html, offers_snapshot.json y estado_ofertas.json listos y
+# commiteados en el repo; una rutina programada de Claude los toma de acá
+# unos minutos después y los publica en el panel público.
+
+on:
+  schedule:
+    - cron: "0 12 * * *" # 09:00 hora Argentina (UTC-3), fijo todo el año
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - run: python export_data.py
+
+      - run: python build_dashboard.py
+
+      - name: Commitear los datos del día si cambiaron
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add offers_snapshot.json dashboard.html estado_ofertas.json
+          git diff --cached --quiet || git commit -m "Actualización diaria de ofertas"
+          git push

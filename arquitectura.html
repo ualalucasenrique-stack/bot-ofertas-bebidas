@@ -1,0 +1,399 @@
+<title>Arquitectura del Bot</title>
+<style>
+:root {
+  --bg: #edf0ea;
+  --surface: #ffffff;
+  --surface-alt: #f4f6f0;
+  --ink: #181b15;
+  --ink-muted: #5c6355;
+  --accent: #8c1f3b;
+  --accent-ink: #ffffff;
+  --line: #d8ddcf;
+  --shadow: 0 1px 2px rgba(24, 27, 21, 0.06), 0 8px 24px -12px rgba(24, 27, 21, 0.18);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14100f;
+    --surface: #1d1714;
+    --surface-alt: #241c18;
+    --ink: #f2ede6;
+    --ink-muted: #a99c8e;
+    --accent: #d3557a;
+    --accent-ink: #1a0d10;
+    --line: #33291f;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px -12px rgba(0, 0, 0, 0.6);
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #14100f;
+  --surface: #1d1714;
+  --surface-alt: #241c18;
+  --ink: #f2ede6;
+  --ink-muted: #a99c8e;
+  --accent: #d3557a;
+  --accent-ink: #1a0d10;
+  --line: #33291f;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px -12px rgba(0, 0, 0, 0.6);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.4rem;
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+h1 {
+  margin: 0 0 0.6rem;
+  font-family: "Iowan Old Style", "Palatino Linotype", Georgia, ui-serif, serif;
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  font-weight: 600;
+  text-wrap: balance;
+  letter-spacing: -0.01em;
+}
+
+.intro {
+  max-width: 62ch;
+  color: var(--ink-muted);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0 0 2rem;
+}
+
+figure {
+  margin: 0 0 2.5rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 1.25rem;
+  box-shadow: var(--shadow);
+  overflow-x: auto;
+}
+
+figure svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-width: 640px;
+}
+
+figcaption {
+  margin-top: 0.9rem;
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  border-top: 1px dashed var(--line);
+  padding-top: 0.7rem;
+}
+
+h2 {
+  font-family: "Iowan Old Style", "Palatino Linotype", Georgia, ui-serif, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0 0 1rem;
+}
+
+.stage-list {
+  list-style: none;
+  margin: 0 0 2.5rem;
+  padding: 0;
+  counter-reset: stage;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.stage {
+  counter-increment: stage;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.9rem 1.1rem;
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  gap: 0.8rem;
+  align-items: baseline;
+  box-shadow: var(--shadow);
+}
+
+.stage::before {
+  content: counter(stage);
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--accent);
+  background: var(--surface-alt);
+  border-radius: 999px;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stage strong {
+  display: block;
+  font-size: 0.95rem;
+  margin-bottom: 0.2rem;
+}
+
+.stage code {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+  color: var(--accent);
+  background: var(--surface-alt);
+  border-radius: 4px;
+  padding: 0.05rem 0.35rem;
+}
+
+.stage p {
+  margin: 0;
+  font-size: 0.86rem;
+  color: var(--ink-muted);
+  line-height: 1.5;
+}
+
+.pending {
+  background: var(--surface-alt);
+  border: 1px dashed var(--line);
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+}
+
+.pending h2 { margin-bottom: 0.6rem; }
+
+.pending ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-size: 0.88rem;
+  color: var(--ink-muted);
+  line-height: 1.7;
+}
+</style>
+<div class="wrap">
+  <p class="eyebrow">MAPA DEL SISTEMA</p>
+  <h1>Cómo funciona el bot de ofertas</h1>
+  <p class="intro">
+    El proceso completo, de punta a punta: de las 5 fuentes hasta el panel
+    que abrís vos. Después de ver el mapa general, entramos parte por parte
+    a definir los criterios exactos de cada etapa.
+  </p>
+
+  <figure>
+    <svg viewBox="0 0 1000 900" role="img" aria-label="Diagrama de flujo: cinco fuentes de datos alimentan dos extractores, que pasan por un filtro de qué cuenta como oferta, se comparan contra el estado guardado del día anterior, se clasifican, se arma el panel visual, se publica, y una rutina diaria dispara todo el proceso y guarda el estado actualizado de vuelta en el repositorio.">
+      <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="currentColor" />
+        </marker>
+      </defs>
+
+      <!-- Row 1: fuentes -->
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+        <g>
+          <rect x="40" y="30" width="150" height="46" rx="8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <text x="115" y="49" text-anchor="middle">Carrefour</text>
+          <text x="115" y="65" text-anchor="middle" font-size="10" opacity="0.6">API VTEX</text>
+        </g>
+        <g>
+          <rect x="205" y="30" width="150" height="46" rx="8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <text x="280" y="49" text-anchor="middle">Vea</text>
+          <text x="280" y="65" text-anchor="middle" font-size="10" opacity="0.6">API VTEX</text>
+        </g>
+        <g>
+          <rect x="370" y="30" width="150" height="46" rx="8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <text x="445" y="49" text-anchor="middle">Día</text>
+          <text x="445" y="65" text-anchor="middle" font-size="10" opacity="0.6">API VTEX</text>
+        </g>
+        <g>
+          <rect x="535" y="30" width="150" height="46" rx="8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <text x="610" y="49" text-anchor="middle">Changomas</text>
+          <text x="610" y="65" text-anchor="middle" font-size="10" opacity="0.6">API VTEX</text>
+        </g>
+        <g>
+          <rect x="780" y="30" width="150" height="46" rx="8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+          <text x="855" y="49" text-anchor="middle">Vital</text>
+          <text x="855" y="65" text-anchor="middle" font-size="10" opacity="0.6">folletos PDF</text>
+        </g>
+      </g>
+
+      <!-- arrows fuentes -> extractores -->
+      <g stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow)">
+        <line x1="115" y1="76" x2="240" y2="118"/>
+        <line x1="280" y1="76" x2="280" y2="118"/>
+        <line x1="445" y1="76" x2="445" y2="118"/>
+        <line x1="610" y1="76" x2="480" y2="118"/>
+        <line x1="855" y1="76" x2="855" y2="118"/>
+      </g>
+
+      <!-- Row 2: extraccion -->
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+        <rect x="60" y="118" width="640" height="50" rx="8" fill="var(--surface-alt-svg,none)" stroke="currentColor" stroke-width="1.5"/>
+        <text x="380" y="139" text-anchor="middle">Extracción — un mismo cliente para las 4</text>
+        <text x="380" y="156" text-anchor="middle" font-size="11" opacity="0.65">vtex_client.py</text>
+
+        <rect x="780" y="118" width="150" height="50" rx="8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+        <text x="855" y="139" text-anchor="middle">Extracción PDF</text>
+        <text x="855" y="156" text-anchor="middle" font-size="11" opacity="0.65">vital_scraper.py</text>
+      </g>
+
+      <!-- arrow extraccion vtex -> es oferta -->
+      <line x1="380" y1="168" x2="380" y2="212" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+      <!-- Row 3: es oferta -->
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+        <rect x="60" y="212" width="640" height="72" rx="8" fill="none" stroke="var(--accent)" stroke-width="2"/>
+        <text x="380" y="236" text-anchor="middle" font-weight="700">¿Cuenta como oferta?</text>
+        <text x="380" y="255" text-anchor="middle" font-size="11" opacity="0.75">precio actual &lt; precio de lista (descuento ≤ 70%)</text>
+        <text x="380" y="271" text-anchor="middle" font-size="11" opacity="0.75">— o si no — tiene promo con etiqueta (2x1, 3x2, "X% off")</text>
+      </g>
+
+      <!-- vital bypass line, dashed, routes right side down to comparar -->
+      <polyline points="855,168 855,320 750,360" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+
+      <!-- arrow es oferta -> comparar -->
+      <line x1="380" y1="284" x2="380" y2="352" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+      <!-- Row 4: comparar con ayer -->
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+        <rect x="60" y="352" width="740" height="56" rx="8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <text x="430" y="376" text-anchor="middle" font-weight="700">Comparar contra la corrida de ayer</text>
+        <text x="430" y="393" text-anchor="middle" font-size="11" opacity="0.65">freshness.py</text>
+      </g>
+
+      <!-- cylinder estado -->
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">
+        <path d="M 850 355 a 60 12 0 0 1 120 0 v 55 a 60 12 0 0 1 -120 0 z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <ellipse cx="910" cy="355" rx="60" ry="12" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <text x="910" y="392" text-anchor="middle" font-size="10.5">estado_ofertas.json</text>
+      </g>
+
+      <!-- arrows cylinder <-> comparar -->
+      <line x1="850" y1="368" x2="805" y2="368" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3" marker-end="url(#arrow)"/>
+      <text x="795" y="364" text-anchor="end" font-size="10" font-family="ui-monospace, monospace" opacity="0.7">lee: ayer</text>
+
+      <line x1="805" y1="392" x2="850" y2="392" stroke="var(--accent)" stroke-width="2" marker-end="url(#arrow)"/>
+      <text x="815" y="410" text-anchor="start" font-size="10" font-family="ui-monospace, monospace" opacity="0.85">guarda: hoy</text>
+
+      <!-- arrow comparar -> clasificar -->
+      <line x1="430" y1="408" x2="430" y2="452" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+      <!-- Row 5: clasificar -->
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+        <rect x="60" y="452" width="740" height="60" rx="8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <text x="430" y="475" text-anchor="middle" font-weight="700">Clasificar y ordenar</text>
+        <text x="430" y="493" text-anchor="middle" font-size="11" opacity="0.7">nuevo/mejoró primero → resto por % descuento · agrupado por cadena · marca ⚠ si una fuente cae &lt;15% de su máximo histórico</text>
+      </g>
+
+      <!-- arrow -> panel -->
+      <line x1="430" y1="512" x2="430" y2="556" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+      <!-- Row 6: panel -->
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+        <rect x="60" y="556" width="740" height="50" rx="8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <text x="430" y="577" text-anchor="middle" font-weight="700">Generar panel visual</text>
+        <text x="430" y="594" text-anchor="middle" font-size="11" opacity="0.65">build_dashboard.py → dashboard.html</text>
+      </g>
+
+      <!-- arrow -> publicar -->
+      <line x1="430" y1="606" x2="430" y2="650" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+      <!-- Row 7: publicar -->
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+        <rect x="60" y="650" width="740" height="50" rx="8" fill="none" stroke="var(--accent)" stroke-width="2"/>
+        <text x="430" y="672" text-anchor="middle" font-weight="700">Publicar / actualizar el panel</text>
+        <text x="430" y="689" text-anchor="middle" font-size="11" opacity="0.75">misma URL fija, todos los días</text>
+      </g>
+
+      <!-- automation controller box -->
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+        <rect x="60" y="770" width="740" height="60" rx="8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="6 4"/>
+        <text x="430" y="794" text-anchor="middle" font-weight="700">Rutina diaria — 10:00 AM</text>
+        <text x="430" y="812" text-anchor="middle" font-size="11" opacity="0.7">corre en la nube, clona el repo de GitHub, ejecuta todo el proceso</text>
+      </g>
+
+      <!-- trigger arrow: automation -> sources (left margin loop) -->
+      <polyline points="60,800 20,800 20,53 40,53" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+      <text x="14" y="430" text-anchor="middle" font-size="10.5" font-family="ui-monospace, monospace" opacity="0.7" transform="rotate(-90 14 430)">dispara esto todos los días</text>
+
+      <!-- commit arrow: cylinder -> automation -->
+      <polyline points="910,410 910,740 800,770" fill="none" stroke="var(--accent)" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+      <text x="920" y="600" text-anchor="middle" font-size="10.5" font-family="ui-monospace, monospace" opacity="0.85" transform="rotate(90 920 600)">commit del estado al repo</text>
+    </svg>
+    <figcaption>
+      Línea sólida = datos que se transforman. Línea punteada gris = ruta de Vital (no pasa por el filtro de "¿es oferta?", porque son folletos, no precios). Línea punteada color = lo que dispara y sostiene la automatización diaria: la rutina arranca el proceso arriba, y al terminar guarda el estado actualizado de vuelta en el repositorio para que la corrida de mañana tenga memoria.
+    </figcaption>
+  </figure>
+
+  <h2>Las 7 etapas, en detalle para cuando entremos parte por parte</h2>
+  <ul class="stage-list">
+    <li class="stage">
+      <div>
+        <strong>Fuentes — <code>sites.py</code></strong>
+        <p>Qué cadenas se consultan y con qué IDs de categoría de bebidas en cada una. Carrefour, Vea, Día y Changomas exponen una API pública (VTEX); Vital no tiene tienda online, solo folletos PDF por sucursal.</p>
+      </div>
+    </li>
+    <li class="stage">
+      <div>
+        <strong>Extracción — <code>vtex_client.py</code> / <code>vital_scraper.py</code></strong>
+        <p>Trae los productos crudos de cada fuente. Para VTEX es un único cliente reutilizado 4 veces; Vital tiene su propio scraper porque su estructura es distinta (HTML con links a PDF, no una API de productos).</p>
+      </div>
+    </li>
+    <li class="stage">
+      <div>
+        <strong>Criterio de oferta — dentro de <code>vtex_client.py</code></strong>
+        <p>Define qué cuenta como oferta real: precio actual por debajo del precio de lista (con un tope de 70% de descuento para descartar precios de lista mal cargados), o una promo explícita con etiqueta (2x1, 3x2, "X% off") aunque el precio de lista esté roto o no cambie.</p>
+      </div>
+    </li>
+    <li class="stage">
+      <div>
+        <strong>Comparación con ayer — <code>freshness.py</code></strong>
+        <p>Compara la corrida de hoy contra <code>estado_ofertas.json</code> (lo que se guardó ayer): marca qué ofertas son nuevas o mejoraron, y si una cadena trae muchas menos ofertas que su máximo histórico, la marca como "posible fuente rota" en vez de mostrarla como "sin ofertas".</p>
+      </div>
+    </li>
+    <li class="stage">
+      <div>
+        <strong>Clasificación — <code>export_data.py</code></strong>
+        <p>Ordena cada cadena: lo nuevo/mejorado primero, después por % de descuento. Agrupa por cadena y guarda todo en <code>offers_snapshot.json</code>.</p>
+      </div>
+    </li>
+    <li class="stage">
+      <div>
+        <strong>Panel visual — <code>build_dashboard.py</code></strong>
+        <p>Convierte ese JSON en el HTML autocontenido que ves: tarjetas por cadena, precios tachados, etiquetas NUEVO, avisos de fuente rota.</p>
+      </div>
+    </li>
+    <li class="stage">
+      <div>
+        <strong>Publicación + automatización — rutina diaria en la nube</strong>
+        <p>Todos los días a las 10:00, una rutina clona el repositorio, corre las 6 etapas anteriores, republica el panel en la misma URL, y guarda de vuelta el estado actualizado para que mañana el proceso tenga memoria de hoy.</p>
+      </div>
+    </li>
+  </ul>
+
+  <div class="pending">
+    <h2>Lo que falta cerrar</h2>
+    <ul>
+      <li>URL del repositorio de GitHub (esperando que lo crees y me la pases).</li>
+      <li>Confirmar los criterios exactos de la etapa 3 — es la parte que más define "qué es una oferta puntual" para vos, conviene revisarla en detalle antes de dar por cerrado el sistema.</li>
+      <li>Decidir si el umbral de "fuente rota" (etapa 4, hoy en 15% del máximo histórico) es el correcto o preferís otro número.</li>
+    </ul>
+  </div>
+</div>

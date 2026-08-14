@@ -6,6 +6,7 @@ Uso: python export_data.py
 """
 
 import json
+import sys
 from datetime import datetime
 
 from sites import SITES
@@ -38,6 +39,19 @@ def main() -> None:
         snapshot["vital_flyers"] = fetch_vital_flyers()
     except Exception as error:
         print(f"  Vital falló: {error}")
+
+    total_offers = sum(len(site["offers"]) for site in snapshot["sites"])
+    total_flyers = len(snapshot["vital_flyers"])
+    if total_offers == 0 and total_flyers == 0:
+        # Las 5 fuentes en cero a la vez casi seguro es una falla de red/entorno
+        # (proxy, DNS, bloqueo), no que ningún supermercado tenga ofertas hoy.
+        # Mejor no pisar el último snapshot bueno con uno vacío.
+        print(
+            "\nERROR: las 5 fuentes devolvieron 0 resultados. Esto huele a falla "
+            "de red/entorno, no a que no haya ofertas en ningún lado. No se "
+            "sobreescribe el snapshot anterior."
+        )
+        sys.exit(1)
 
     print("Comparando contra la corrida anterior...")
     apply_freshness(snapshot, load_state())

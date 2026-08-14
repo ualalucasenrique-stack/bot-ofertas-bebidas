@@ -95,13 +95,14 @@ def render_vital_section(flyers: list[dict]) -> str:
     if not flyers:
         chips = '<p class="muted">Sin folletos publicados esta semana.</p>'
     else:
-        chips = "".join(
-            f'<a class="flyer-chip" href="{html.escape(f["pdf_url"])}" target="_blank" rel="noopener">'
-            f'{"<span class=\"new-tag\">NUEVO</span>" if f.get("is_new") else ""}'
-            f'{html.escape(f["title"])}<span class="chip-tag">PDF</span></a>'
-            for f in flyers
-        )
-        chips = f'<div class="flyer-grid">{chips}</div>'
+        chip_parts = []
+        for f in flyers:
+            new_tag = '<span class="new-tag">NUEVO</span>' if f.get("is_new") else ""
+            chip_parts.append(
+                f'<a class="flyer-chip" href="{html.escape(f["pdf_url"])}" target="_blank" rel="noopener">'
+                f'{new_tag}{html.escape(f["title"])}<span class="chip-tag">PDF</span></a>'
+            )
+        chips = f'<div class="flyer-grid">{"".join(chip_parts)}</div>'
 
     return f"""
       <section class="vital-card" aria-label="Vital">
