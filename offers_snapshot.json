@@ -135,33 +135,6 @@
           "is_new": false
         },
         {
-          "product_id": "767995",
-          "product_name": "Cerveza blanca Quilmes Bajo cero en lata 473 ml",
-          "price": 1000.0,
-          "list_price": 1619.0,
-          "discount_pct": 38,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "746702",
-          "product_name": "Gaseosa cola Pepsi Black pet 2 lts",
-          "price": 2800.0,
-          "list_price": 4400.0,
-          "discount_pct": 36,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "740265",
-          "product_name": "Gaseosa cola regular Pepsi 2 lts.",
-          "price": 2800.0,
-          "list_price": 4400.0,
-          "discount_pct": 36,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "643191",
           "ean": "7792798002351",
           "product_name": "Cerveza roja Patagonia Amber Lager 730 ml",
@@ -368,42 +341,6 @@
           "price": 2315.0,
           "list_price": 3309.0,
           "discount_pct": 30,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "630677",
-          "product_name": "Gaseosa cola Coca Cola sabor original 1,75 lts",
-          "price": 3499.0,
-          "list_price": 4900.0,
-          "discount_pct": 29,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "636689",
-          "product_name": "Gaseosa cola Coca Cola Zero 1,75 lts",
-          "price": 3499.0,
-          "list_price": 4900.0,
-          "discount_pct": 29,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "705202",
-          "product_name": "Jugo Cepita del Valle Naranja Tentación 995 ml",
-          "price": 2349.0,
-          "list_price": 3200.0,
-          "discount_pct": 27,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "705201",
-          "product_name": "Jugo Cepita del Valle Durazno Delicioso 995 ml",
-          "price": 2349.0,
-          "list_price": 3200.0,
-          "discount_pct": 27,
           "badges": [],
           "is_new": false
         },
@@ -2320,25 +2257,6 @@
           "badges": [
             "Hasta 50% off en la 2da unidad de bebidas seleccionadas",
             "Hasta 50% off en la 2da unidad de gaseosas seleccionadas"
-          ],
-          "is_new": false
-        },
-        {
-          "product_id": "262827",
-          "product_name": "Cerveza Rubia x 6 Un 473 Cc Stella Artois",
-          "price": 22990.0,
-          "list_price": 1900000.0,
-          "discount_pct": 0,
-          "badges": [
-            "Hasta 2do al 70% en Almacén y Bebidas",
-            "Hasta 30% off en Cervezas Stella",
-            "Hasta 30% off en Stella Artois",
-            "Hasta 30% off en cervezas seleccionadas Stella",
-            "Hasta 30% off en productos seleccionados",
-            "Hasta 35% off en Stella",
-            "Hasta 40% off en Stella",
-            "Hasta 40% off en cervezas seleccionadas",
-            "Mira que Golazo!, Hasta 50% off en Stella+Lays"
           ],
           "is_new": false
         },
@@ -7684,33 +7602,6 @@
           "is_new": false
         },
         {
-          "product_id": "302264",
-          "product_name": "Cerveza Pure Gold Stella Artois 330 Ml.",
-          "price": 3000.0,
-          "list_price": 4185.0,
-          "discount_pct": 28,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "309151",
-          "product_name": "Cerveza Quilmes 710 Ml.",
-          "price": 2700.0,
-          "list_price": 3700.0,
-          "discount_pct": 27,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "39818",
-          "product_name": "Cerveza Quilmes Cristal en Lata 473 ml.",
-          "price": 1900.0,
-          "list_price": 2588.0,
-          "discount_pct": 27,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "45924",
           "ean": "7792798005871",
           "product_name": "Cerveza Rubia Brahma Lata 354 Ml.",
@@ -8521,15 +8412,6 @@
           "is_new": false
         },
         {
-          "product_id": "311834",
-          "product_name": "Cerveza Ultra Michelob Ultra 27 Ml.",
-          "price": 1990.0,
-          "list_price": 2665.0,
-          "discount_pct": 25,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "297051",
           "ean": "7797942007046",
           "product_name": "Vino Malbec Finca Natalina Auténtico 750 Ml.",
@@ -8570,29 +8452,11 @@
           "is_new": false
         },
         {
-          "product_id": "301121",
-          "product_name": "Cerveza Ultra Michelob 473 Ml.",
-          "price": 2100.0,
-          "list_price": 2750.0,
-          "discount_pct": 24,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "295541",
           "ean": "7792319972224",
           "product_name": "Vino Blanco Dulce Cosecha Tardia Norton 750 Ml.",
           "price": 5490.0,
           "list_price": 7190.0,
-          "discount_pct": 24,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "76286",
-          "product_name": "Cerveza Brahma Lata 473 ml.",
-          "price": 2050.0,
-          "list_price": 2710.0,
           "discount_pct": 24,
           "badges": [],
           "is_new": false
@@ -8708,15 +8572,6 @@
           "is_new": false
         },
         {
-          "product_id": "301308",
-          "product_name": "Cerveza Musica Budweiser 473 Ml.",
-          "price": 2190.0,
-          "list_price": 2800.0,
-          "discount_pct": 22,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "180721",
           "ean": "7794450000781",
           "product_name": "Vino Tinto Alamos Malbec 750 Ml.",
@@ -8822,15 +8677,6 @@
           "product_name": "Vino Tinto Malbec Cordero con Piel de Lobo 750 Ml.",
           "price": 5590.0,
           "list_price": 7000.0,
-          "discount_pct": 20,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "298960",
-          "product_name": "Cerveza Budweiser Lata 710 Ml.",
-          "price": 3300.0,
-          "list_price": 4115.0,
           "discount_pct": 20,
           "badges": [],
           "is_new": false
@@ -9196,56 +9042,11 @@
           "is_new": false
         },
         {
-          "product_id": "292532",
-          "product_name": "Amargo Pomelo Rosado Dia 1,5 Lt.",
-          "price": 1220.0,
-          "list_price": 1450.0,
-          "discount_pct": 16,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "295246",
-          "product_name": "Amargo Citrus Dia 1,5 Lt.",
-          "price": 1220.0,
-          "list_price": 1450.0,
-          "discount_pct": 16,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "295245",
-          "product_name": "Amargo Cordillerano Dia 1,5 Lt.",
-          "price": 1220.0,
-          "list_price": 1450.0,
-          "discount_pct": 16,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "295244",
-          "product_name": "Amargo Serrano Dia 1,5 Lt.",
-          "price": 1220.0,
-          "list_price": 1450.0,
-          "discount_pct": 16,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "312914",
           "ean": "7790070760739",
           "product_name": "Vino Malbec Rose Emilia 750 Ml.",
           "price": 7590.0,
           "list_price": 9000.0,
-          "discount_pct": 16,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "295397",
-          "product_name": "Amargo Limón Dia 1,5 Lt.",
-          "price": 1220.0,
-          "list_price": 1450.0,
           "discount_pct": 16,
           "badges": [],
           "is_new": false
@@ -9936,15 +9737,6 @@
     {
       "name": "Changomas",
       "offers": [
-        {
-          "product_id": "30965",
-          "product_name": "Bebida Isotónica Gatorade Sabor Frutas Tropicales 500ml",
-          "price": 1609.3,
-          "list_price": 2299.0,
-          "discount_pct": 30,
-          "badges": [],
-          "is_new": true
-        },
         {
           "product_id": "319",
           "ean": "7790290007195",
