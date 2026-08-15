@@ -1,5 +1,5 @@
 {
-  "max_count::Carrefour": 171,
+  "max_count::Carrefour": 179,
   "last_offers::Carrefour": [
     "716641::11",
     "746702::36",
@@ -550,7 +550,7 @@
     "366::0",
     "61::0"
   ],
-  "max_count::Día": 333,
+  "max_count::Día": 335,
   "last_offers::Día": [
     "298001::25",
     "264018::25",
