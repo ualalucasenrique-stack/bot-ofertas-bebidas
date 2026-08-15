@@ -14,6 +14,7 @@ from thor_common import RetryExhausted, retry_with_backoff
 PAGE_SIZE = 50  # máximo que permite la API por página
 REQUEST_DELAY_SECONDS = 0.4  # para no bombardear el sitio de pedidos
 TIMEOUT_SECONDS = 20
+MIN_CREDIBLE_DISCOUNT_PCT = 10  # por debajo de esto, no cuenta como oferta por precio solo
 MAX_CREDIBLE_DISCOUNT_PCT = 70
 MAX_RETRIES_PER_PAGE = 5
 
@@ -138,8 +139,12 @@ def extract_offers(raw_product: dict) -> list[dict]:
             # descuentos falsos del 90%+. Un descuento real de supermercado
             # casi nunca supera el ~70%: si lo supera, no confiamos en el
             # precio de lista y solo mostramos el producto si tiene una
-            # promo explícita (badge) detrás.
-            price_discount_is_credible = 0 < discount_pct <= MAX_CREDIBLE_DISCOUNT_PCT
+            # promo explícita (badge) detrás. Por abajo del piso mínimo,
+            # tampoco alcanza para contar como "oferta" por sí solo (pero
+            # sigue mostrándose si además trae una promo con badge).
+            price_discount_is_credible = (
+                MIN_CREDIBLE_DISCOUNT_PCT <= discount_pct <= MAX_CREDIBLE_DISCOUNT_PCT
+            )
             if not price_discount_is_credible:
                 discount_pct = 0
 
@@ -149,6 +154,7 @@ def extract_offers(raw_product: dict) -> list[dict]:
             offers.append(
                 {
                     "product_id": raw_product.get("productId"),
+                    "ean": item.get("ean") or None,
                     "product_name": product_name,
                     "price": price,
                     "list_price": list_price,
