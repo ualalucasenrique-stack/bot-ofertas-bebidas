@@ -11,7 +11,7 @@ from datetime import datetime
 
 SNAPSHOT_PATH = "offers_snapshot.json"
 OUTPUT_PATH = "dashboard.html"
-TOP_OFFERS_PER_SITE = 12
+COLLAPSE_LIMIT = 15  # cuántas ofertas se ven por cadena antes de "Ver todas" (el JS lo controla)
 
 SITE_MARKS = {
     "Carrefour": "CA",
@@ -49,7 +49,9 @@ def render_offer_row(offer: dict) -> str:
     name = html.escape(offer["product_name"])
     discount_pct = offer["discount_pct"]
     price_new = format_price(offer["price"])
-    new_tag = '<span class="new-tag">NUEVO</span>' if offer.get("is_new") else ""
+    is_new = 1 if offer.get("is_new") else 0
+    new_tag = '<span class="new-tag">NUEVO</span>' if is_new else ""
+    search_key = html.escape(offer["product_name"].lower())
 
     if discount_pct > 0:
         price_old = format_price(offer["list_price"])
@@ -61,7 +63,7 @@ def render_offer_row(offer: dict) -> str:
         price_html = f'<span class="price-new price-new-solo">{price_new}</span>'
 
     return f"""
-        <li class="offer-row">
+        <li class="offer-row" data-name="{search_key}" data-discount="{discount_pct}" data-new="{is_new}">
           <div class="offer-name">{new_tag}{name}{render_badges(offer["badges"])}</div>
           <div class="offer-price">{price_html}</div>
           {pill_for(discount_pct)}
@@ -70,16 +72,23 @@ def render_offer_row(offer: dict) -> str:
 
 def render_site_card(site: dict) -> str:
     name = site["name"]
-    offers = site["offers"][:TOP_OFFERS_PER_SITE]
+    offers = site["offers"]  # todas -- el JS decide cuántas se muestran
     mark = SITE_MARKS.get(name, name[:2].upper())
     rows = "".join(render_offer_row(o) for o in offers) if offers else (
         '<li class="offer-empty">Sin ofertas detectadas hoy.</li>'
     )
     warning = site.get("source_warning")
     warning_html = f'<p class="source-warning">⚠ {html.escape(warning)}</p>' if warning else ""
+    expand_html = (
+        f'<button class="expand-btn" type="button" hidden '
+        f'data-more-label="Ver las {len(offers)} ofertas ▾" data-less-label="Ver menos ▴">'
+        f'Ver las {len(offers)} ofertas ▾</button>'
+        if len(offers) > COLLAPSE_LIMIT
+        else ""
+    )
 
     return f"""
-      <article class="site-card">
+      <article class="site-card" data-site="{html.escape(name)}">
         <header class="site-card-head">
           <span class="site-mark">{mark}</span>
           <h2>{html.escape(name)}</h2>
@@ -88,6 +97,8 @@ def render_site_card(site: dict) -> str:
         {warning_html}
         <ul class="offer-list">{rows}
         </ul>
+        <p class="no-results" hidden>Sin resultados acá para tu búsqueda.</p>
+        {expand_html}
       </article>"""
 
 
@@ -98,14 +109,16 @@ def render_vital_section(flyers: list[dict]) -> str:
         chip_parts = []
         for f in flyers:
             new_tag = '<span class="new-tag">NUEVO</span>' if f.get("is_new") else ""
+            search_key = html.escape(f["title"].lower())
             chip_parts.append(
-                f'<a class="flyer-chip" href="{html.escape(f["pdf_url"])}" target="_blank" rel="noopener">'
+                f'<a class="flyer-chip" data-name="{search_key}" href="{html.escape(f["pdf_url"])}" '
+                f'target="_blank" rel="noopener">'
                 f'{new_tag}{html.escape(f["title"])}<span class="chip-tag">PDF</span></a>'
             )
         chips = f'<div class="flyer-grid">{"".join(chip_parts)}</div>'
 
     return f"""
-      <section class="vital-card" aria-label="Vital">
+      <section class="vital-card" aria-label="Vital" data-site="Vital">
         <header class="vital-head">
           <span class="site-mark site-mark-alt">VI</span>
           <div>
@@ -114,6 +127,7 @@ def render_vital_section(flyers: list[dict]) -> str:
           </div>
         </header>
         {chips}
+        <p class="no-results" hidden>Sin resultados acá para tu búsqueda.</p>
       </section>"""
 
 
@@ -154,6 +168,7 @@ def main() -> None:
         stats=stats_html,
         sites=sites_html,
         vital=vital_html,
+        collapse_limit=COLLAPSE_LIMIT,
     )
 
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
@@ -315,6 +330,96 @@ body {{
   letter-spacing: 0.03em;
   color: var(--ink-muted);
 }}
+
+.toolbar {{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 0;
+  margin: -0.7rem 0 1.5rem;
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--line);
+}}
+
+.search-wrap {{ flex: 1 1 220px; min-width: 180px; }}
+
+#search-input {{
+  width: 100%;
+  font: inherit;
+  font-size: 0.88rem;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.5rem 0.9rem;
+}}
+
+#search-input:focus {{
+  outline: none;
+  border-color: var(--accent);
+}}
+
+#sort-select {{
+  font: inherit;
+  font-size: 0.82rem;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.5rem 0.8rem;
+}}
+
+.chain-chips {{ display: flex; flex-wrap: wrap; gap: 0.4rem; }}
+
+.chip {{
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--ink-muted);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.42rem 0.85rem;
+  cursor: pointer;
+}}
+
+.chip:hover {{ border-color: var(--accent); color: var(--accent); }}
+
+.chip.active {{
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}}
+
+.no-results {{
+  padding: 0.75rem 0;
+  color: var(--ink-muted);
+  font-size: 0.85rem;
+  font-style: italic;
+}}
+
+.expand-btn {{
+  display: block;
+  width: 100%;
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: none;
+  border: none;
+  border-top: 1px dashed var(--line);
+  padding: 0.65rem 0 0.15rem;
+  margin-top: 0.2rem;
+  cursor: pointer;
+  text-align: center;
+}}
+
+.expand-btn:hover {{ text-decoration: underline; }}
 
 .sites {{
   display: grid;
@@ -546,6 +651,25 @@ body {{
 
   {stats}
 
+  <div class="toolbar">
+    <div class="search-wrap">
+      <input type="search" id="search-input" placeholder="Buscar producto…" aria-label="Buscar producto por nombre">
+    </div>
+    <select id="sort-select" aria-label="Ordenar ofertas">
+      <option value="new">Nuevo primero</option>
+      <option value="discount">Mayor descuento</option>
+      <option value="name">Alfabético</option>
+    </select>
+    <div class="chain-chips" role="group" aria-label="Filtrar por cadena">
+      <button class="chip active" type="button" data-site="all" aria-pressed="true">Todas</button>
+      <button class="chip" type="button" data-site="Carrefour" aria-pressed="false">Carrefour</button>
+      <button class="chip" type="button" data-site="Vea" aria-pressed="false">Vea</button>
+      <button class="chip" type="button" data-site="Día" aria-pressed="false">Día</button>
+      <button class="chip" type="button" data-site="Changomas" aria-pressed="false">Changomas</button>
+      <button class="chip" type="button" data-site="Vital" aria-pressed="false">Vital</button>
+    </div>
+  </div>
+
   <section class="sites" aria-label="Ofertas por cadena">
     {sites}
   </section>
@@ -557,6 +681,97 @@ body {{
     <p><strong>Notas de datos:</strong> se descartan descuentos por encima del 70% (suelen ser precios de lista mal cargados, no ofertas reales). Vital no tiene tienda online: se listan los folletos PDF vigentes de la sucursal La Plata sin filtrar por categoría. Un aviso ⚠ en una cadena indica que trajo muchas menos ofertas que su máximo histórico — probable falla de la fuente, no ausencia real de ofertas.</p>
   </footer>
 </div>
+<script>
+(function () {{
+  var COLLAPSE_LIMIT = {collapse_limit};
+  var searchInput = document.getElementById("search-input");
+  var sortSelect = document.getElementById("sort-select");
+  var chips = document.querySelectorAll(".chip");
+  var cards = document.querySelectorAll(".site-card, .vital-card");
+
+  function applyCardVisibility(card) {{
+    var q = searchInput.value.trim().toLowerCase();
+    var expanded = card.classList.contains("expanded");
+    var rows = card.querySelectorAll(".offer-row, .flyer-chip");
+    var visibleCount = 0;
+
+    rows.forEach(function (row, i) {{
+      var name = row.getAttribute("data-name") || "";
+      var matches = !q || name.indexOf(q) !== -1;
+      var withinLimit = !!q || expanded || i < COLLAPSE_LIMIT;
+      row.style.display = matches && withinLimit ? "" : "none";
+      if (matches) visibleCount++;
+    }});
+
+    var noResults = card.querySelector(".no-results");
+    if (noResults) noResults.hidden = !(q && visibleCount === 0);
+
+    var btn = card.querySelector(".expand-btn");
+    if (btn) {{
+      btn.hidden = !!q;
+      btn.textContent = expanded ? btn.getAttribute("data-less-label") : btn.getAttribute("data-more-label");
+    }}
+  }}
+
+  function applyAll() {{
+    cards.forEach(applyCardVisibility);
+  }}
+
+  function applySort() {{
+    var mode = sortSelect.value;
+    document.querySelectorAll(".offer-list").forEach(function (list) {{
+      var rows = Array.prototype.slice.call(list.querySelectorAll(".offer-row"));
+      if (!rows.length) return;
+      rows.sort(function (a, b) {{
+        if (mode === "discount") {{
+          return parseFloat(b.dataset.discount) - parseFloat(a.dataset.discount);
+        }}
+        if (mode === "name") {{
+          return a.dataset.name.localeCompare(b.dataset.name, "es");
+        }}
+        var an = parseInt(a.dataset.new, 10) || 0;
+        var bn = parseInt(b.dataset.new, 10) || 0;
+        if (an !== bn) return bn - an;
+        return parseFloat(b.dataset.discount) - parseFloat(a.dataset.discount);
+      }});
+      rows.forEach(function (row) {{ list.appendChild(row); }});
+    }});
+    applyAll();
+  }}
+
+  function applyChainFilter(selected) {{
+    cards.forEach(function (card) {{
+      var site = card.getAttribute("data-site");
+      card.hidden = selected !== "all" && site !== selected;
+    }});
+  }}
+
+  searchInput.addEventListener("input", applyAll);
+  sortSelect.addEventListener("change", applySort);
+
+  chips.forEach(function (chip) {{
+    chip.addEventListener("click", function () {{
+      chips.forEach(function (c) {{
+        c.classList.remove("active");
+        c.setAttribute("aria-pressed", "false");
+      }});
+      chip.classList.add("active");
+      chip.setAttribute("aria-pressed", "true");
+      applyChainFilter(chip.getAttribute("data-site"));
+    }});
+  }});
+
+  document.querySelectorAll(".expand-btn").forEach(function (btn) {{
+    btn.addEventListener("click", function () {{
+      var card = btn.closest(".site-card");
+      card.classList.toggle("expanded");
+      applyCardVisibility(card);
+    }});
+  }});
+
+  applyAll();
+}})();
+</script>
 """
 
 
