@@ -1,183 +1,23 @@
 {
-  "generated_at": "2026-11-19T20:20:00.407997",
+  "generated_at": "2026-11-20T19:51:19.946263",
   "sites": [
     {
       "name": "Carrefour",
       "offers": [
         {
-          "product_id": "716856",
-          "ean": "7790070760500",
-          "product_name": "Vino tinto Malbec Aime 750 ml",
-          "price": 3200.0,
-          "list_price": 6700.0,
-          "discount_pct": 52,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "716857",
-          "ean": "7790070760517",
-          "product_name": "Vino blanco Chardonnay Aimé 750 ml",
-          "price": 3200.0,
-          "list_price": 6700.0,
-          "discount_pct": 52,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "716858",
-          "ean": "7790070760524",
-          "product_name": "Vino Rosé Aimé 750 ml",
-          "price": 3200.0,
-          "list_price": 6700.0,
-          "discount_pct": 52,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "762749",
-          "ean": "7794450947918",
-          "product_name": "Vino tinto orgánico Malbec La Posta La Libertad 750 ml",
-          "price": 14000.0,
-          "list_price": 20200.0,
-          "discount_pct": 31,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "762750",
-          "ean": "7794450947963",
-          "product_name": "Vino blanco orgánico Chenin La Posta La Libertad 750 ml",
-          "price": 14000.0,
-          "list_price": 20200.0,
-          "discount_pct": 31,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "542426",
-          "ean": "7798136300387",
-          "product_name": "Vino blanco Torrentés dulce Elementos 750 ml",
-          "price": 5123.3,
-          "list_price": 7319.0,
-          "discount_pct": 30,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "718556",
-          "ean": "7798074864798",
-          "product_name": "Vino tinto Cabernet Sauvignon Portillo 750ml",
-          "price": 4999.0,
-          "list_price": 6990.0,
-          "discount_pct": 28,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "725349",
-          "ean": "7790070760777",
-          "product_name": "Vino blanco dulce natural Emilia 750 ml",
-          "price": 6500.0,
-          "list_price": 8999.0,
-          "discount_pct": 28,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "722942",
-          "ean": "7790070760630",
-          "product_name": "Vino rosado dulce Benjamin 750 ml",
-          "price": 4800.0,
-          "list_price": 6699.0,
-          "discount_pct": 28,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "718557",
-          "ean": "7798074864811",
-          "product_name": "Vino rosado Malbec Portillo 750 ml",
-          "price": 4999.0,
-          "list_price": 6990.0,
-          "discount_pct": 28,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "738284",
-          "ean": "7790070760784",
-          "product_name": "Vino tinto red blend Emilia en botella 750 cc.",
-          "price": 6500.0,
-          "list_price": 9000.0,
-          "discount_pct": 28,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "721779",
-          "ean": "7790070760562",
-          "product_name": "Vino tinto Cabernet Benjamín 750 ml",
-          "price": 4800.0,
-          "list_price": 6700.0,
-          "discount_pct": 28,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "722949",
-          "ean": "7790070760791",
-          "product_name": "Vino blanco Sauvignon Blanc Emilia 750 ml",
-          "price": 6500.0,
-          "list_price": 8999.0,
-          "discount_pct": 28,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "736175",
-          "ean": "7798119220381",
-          "product_name": "Bebida energizante Speed Zero Sugar 473 ml",
-          "price": 2283.75,
-          "list_price": 3045.0,
+          "product_id": "293823",
+          "ean": "7790154000652",
+          "product_name": "Sidra Del Valle etiqueta blanca 720 cc.",
+          "price": 3562.5,
+          "list_price": 4750.0,
           "discount_pct": 25,
           "badges": [],
           "is_new": true
         },
         {
-          "product_id": "787174",
-          "ean": "7798119220428",
-          "product_name": "Energizante tropical Speed lata 473 ml",
-          "price": 2286.33,
-          "list_price": 3048.44,
-          "discount_pct": 25,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "723741",
-          "ean": "7798074865191",
-          "product_name": "Vino tinto Malbec Killka 750 ml",
-          "price": 7575.0,
-          "list_price": 10100.0,
-          "discount_pct": 25,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "723739",
-          "ean": "7798074865139",
-          "product_name": "Vino tinto Cabernet Killka 750 ml",
-          "price": 7575.0,
-          "list_price": 10100.0,
-          "discount_pct": 25,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "719774",
-          "ean": "7798108833950",
-          "product_name": "Vino tinto Malbec Callia 750 ml",
+          "product_id": "242010",
+          "ean": "7790154000027",
+          "product_name": "Ananá fizz Del Valle 720 cc.",
           "price": 4500.0,
           "list_price": 6000.0,
           "discount_pct": 25,
@@ -185,212 +25,22 @@
           "is_new": true
         },
         {
-          "product_id": "723744",
-          "ean": "7798074865214",
-          "product_name": "Vino blanco Sauvignon Blanc Killka 750 ml",
-          "price": 7575.0,
-          "list_price": 10100.0,
+          "product_id": "777446",
+          "ean": "7790139102449",
+          "product_name": "Aperitivo con alcohol 1882 fernet con pomelo 473 ml",
+          "price": 1687.5,
+          "list_price": 2250.0,
           "discount_pct": 25,
           "badges": [],
           "is_new": true
         },
         {
-          "product_id": "723743",
-          "ean": "7798074865153",
-          "product_name": "Vino tinto Blend Killka 750 ml",
-          "price": 7575.0,
-          "list_price": 10100.0,
-          "discount_pct": 25,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "723742",
-          "ean": "7798074865177",
-          "product_name": "Vino blanco Malbec Killka selentein 630 ml",
-          "price": 7575.0,
-          "list_price": 10100.0,
-          "discount_pct": 25,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "723740",
-          "ean": "7798074865115",
-          "product_name": "Vino blanco Chardonnay Killka 750 ml",
-          "price": 7575.0,
-          "list_price": 10100.0,
-          "discount_pct": 25,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "743997",
-          "ean": "7790984003588",
-          "product_name": "Vino blanco dulce tardío La Fusta 750 ml",
-          "price": 2800.0,
-          "list_price": 3650.0,
-          "discount_pct": 23,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "710760",
-          "ean": "7794450093516",
-          "product_name": "Vino tinto Malbec La Posta Pizzela 750 ml",
-          "price": 14000.0,
-          "list_price": 18300.0,
-          "discount_pct": 23,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "720464",
-          "ean": "7794450093509",
-          "product_name": "Vino tinto Malbec La Posta Paulucci 750 ml",
-          "price": 14000.0,
-          "list_price": 18300.0,
-          "discount_pct": 23,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "720463",
-          "ean": "7794450093523",
-          "product_name": "Vino tinto Bonarda La Posta Armando 750 ml",
-          "price": 14000.0,
-          "list_price": 18300.0,
-          "discount_pct": 23,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "703005",
-          "ean": "7790950143690",
-          "product_name": "Aperitivo sin alcohol Pomelo Terma sin azúcar 1,35 lts",
-          "price": 2399.0,
-          "list_price": 2999.0,
+          "product_id": "767995",
+          "ean": "7792798015290",
+          "product_name": "Cerveza blanca Quilmes Bajo cero en lata 473 ml",
+          "price": 1399.2,
+          "list_price": 1749.0,
           "discount_pct": 20,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "591724",
-          "ean": "7790950133349",
-          "product_name": "Aperitivo sin alcohol Cuyano Terma Cero 1,35 lts",
-          "price": 2399.0,
-          "list_price": 2999.0,
-          "discount_pct": 20,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "576013",
-          "ean": "7790950003420",
-          "product_name": "Aperitivo sin alcohol Serrano Tres Torres 1,5 lts",
-          "price": 1335.0,
-          "list_price": 1659.0,
-          "discount_pct": 20,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "673465",
-          "ean": "7790950141030",
-          "product_name": "Aperitivo sin alcohol Patagónico Terma Cero 1,35 lts",
-          "price": 2399.0,
-          "list_price": 3000.0,
-          "discount_pct": 20,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "601585",
-          "ean": "7790950133370",
-          "product_name": "Aperitivo sin alcohol Manzana Terma Cero 1,35 lts",
-          "price": 2399.0,
-          "list_price": 2999.0,
-          "discount_pct": 20,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "591718",
-          "ean": "7790950133288",
-          "product_name": "Aperitivo sin alcohol Limón Terma Cero 1,35 lts",
-          "price": 2399.0,
-          "list_price": 2999.0,
-          "discount_pct": 20,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "591715",
-          "ean": "7790950133271",
-          "product_name": "Aperitivo sin alcohol Limón Terma 1,35 lts",
-          "price": 2399.0,
-          "list_price": 2999.0,
-          "discount_pct": 20,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "591725",
-          "ean": "7790950133257",
-          "product_name": "Aperitivo sin alcohol Pomelo Terma 1,35 lts",
-          "price": 2399.0,
-          "list_price": 2999.0,
-          "discount_pct": 20,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "743983",
-          "ean": "7790984003557",
-          "product_name": "Vino tinto Malbec La Fusta 750 ml",
-          "price": 2800.0,
-          "list_price": 3395.0,
-          "discount_pct": 18,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "413726",
-          "ean": "7790139002879",
-          "product_name": "Fernet 1882 750 cc",
-          "price": 9638.0,
-          "list_price": 11770.0,
-          "discount_pct": 18,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "583261",
-          "ean": "7790950130805",
-          "product_name": "Aperitivo sin alcohol Limón Terma Light 1,75 lts",
-          "price": 2809.0,
-          "list_price": 3309.0,
-          "discount_pct": 15,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "560472",
-          "ean": "7790950128468",
-          "product_name": "Aperitivo sin alcohol Pomelo Rosado Terma 1,75 lts",
-          "price": 2809.0,
-          "list_price": 3309.0,
-          "discount_pct": 15,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "54617",
-          "ean": "7790950001969",
-          "product_name": "Aperitivo Amargo Obrero 950 cc.",
-          "price": 5250.0,
-          "list_price": 6205.0,
-          "discount_pct": 15,
           "badges": [],
           "is_new": true
         },
@@ -401,6 +51,36 @@
           "price": 3200.0,
           "list_price": 6800.0,
           "discount_pct": 53,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "716856",
+          "ean": "7790070760500",
+          "product_name": "Vino tinto Malbec Aime 750 ml",
+          "price": 3200.0,
+          "list_price": 6700.0,
+          "discount_pct": 52,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "716857",
+          "ean": "7790070760517",
+          "product_name": "Vino blanco Chardonnay Aimé 750 ml",
+          "price": 3200.0,
+          "list_price": 6700.0,
+          "discount_pct": 52,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "716858",
+          "ean": "7790070760524",
+          "product_name": "Vino Rosé Aimé 750 ml",
+          "price": 3200.0,
+          "list_price": 6700.0,
+          "discount_pct": 52,
           "badges": [],
           "is_new": false
         },
@@ -655,11 +335,11 @@
           "is_new": false
         },
         {
-          "product_id": "691087",
-          "ean": "7792798010639",
-          "product_name": "Cerveza negra Stella Artois Noire 473 ml",
-          "price": 2787.85,
-          "list_price": 4289.0,
+          "product_id": "582751",
+          "ean": "7792798011087",
+          "product_name": "Cerveza rubia clásica Quilmes 340 ml",
+          "price": 1169.35,
+          "list_price": 1799.0,
           "discount_pct": 35,
           "badges": [],
           "is_new": false
@@ -775,6 +455,16 @@
           "is_new": false
         },
         {
+          "product_id": "691087",
+          "ean": "7792798010639",
+          "product_name": "Cerveza negra Stella Artois Noire 473 ml",
+          "price": 2787.85,
+          "list_price": 4289.0,
+          "discount_pct": 35,
+          "badges": [],
+          "is_new": false
+        },
+        {
           "product_id": "608750",
           "ean": "7790895011269",
           "product_name": "Bebida isotónica Powerade Frutas Tropicales 1,5 lts",
@@ -800,16 +490,6 @@
           "product_name": "Vermouth Carpano Rosso 950 cc.",
           "price": 8385.0,
           "list_price": 12900.0,
-          "discount_pct": 35,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "582751",
-          "ean": "7792798011087",
-          "product_name": "Cerveza rubia clásica Quilmes 340 ml",
-          "price": 1169.35,
-          "list_price": 1799.0,
           "discount_pct": 35,
           "badges": [],
           "is_new": false
@@ -935,6 +615,16 @@
           "is_new": false
         },
         {
+          "product_id": "785383",
+          "ean": "7790895651649",
+          "product_name": "Bebida isotónica Powerado Zero Mountain Blast pet 500 ml",
+          "price": 1430.0,
+          "list_price": 2200.0,
+          "discount_pct": 35,
+          "badges": [],
+          "is_new": false
+        },
+        {
           "product_id": "784534",
           "ean": "7798420160864",
           "product_name": "Bebida isotónica Suerox sabor naranja dulce 630 ml",
@@ -995,16 +685,6 @@
           "is_new": false
         },
         {
-          "product_id": "785383",
-          "ean": "7790895651649",
-          "product_name": "Bebida isotónica Powerado Zero Mountain Blast pet 500 ml",
-          "price": 1430.0,
-          "list_price": 2200.0,
-          "discount_pct": 35,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "777445",
           "ean": "7798091030602",
           "product_name": "Cerveza artesanal Ipa Antares XPA 473 ml",
@@ -1035,11 +715,11 @@
           "is_new": false
         },
         {
-          "product_id": "746912",
-          "ean": "7798091030527",
-          "product_name": "Cerveza artesanal Antares Espiritu Lager 473 ml",
-          "price": 2600.0,
-          "list_price": 4000.0,
+          "product_id": "653816",
+          "ean": "7790290101510",
+          "product_name": "Vodka Sernova 700 cc.",
+          "price": 8774.35,
+          "list_price": 13499.0,
           "discount_pct": 35,
           "badges": [],
           "is_new": false
@@ -1055,21 +735,21 @@
           "is_new": false
         },
         {
-          "product_id": "655371",
-          "ean": "7790290101473",
-          "product_name": "Fernet Branca menta 750 cc.",
-          "price": 13650.0,
-          "list_price": 21000.0,
+          "product_id": "687368",
+          "ean": "7798000213515",
+          "product_name": "Vino tinto Malbec Fabre Montmayou 750 ml",
+          "price": 11374.35,
+          "list_price": 17499.0,
           "discount_pct": 35,
           "badges": [],
           "is_new": false
         },
         {
-          "product_id": "653816",
-          "ean": "7790290101510",
-          "product_name": "Vodka Sernova 700 cc.",
-          "price": 8774.35,
-          "list_price": 13499.0,
+          "product_id": "655371",
+          "ean": "7790290101473",
+          "product_name": "Fernet Branca menta 750 cc.",
+          "price": 13650.0,
+          "list_price": 21000.0,
           "discount_pct": 35,
           "badges": [],
           "is_new": false
@@ -1090,6 +770,16 @@
           "product_name": "Vino tinto Malbec Alambrado 750 ml",
           "price": 7123.35,
           "list_price": 10959.0,
+          "discount_pct": 35,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "746912",
+          "ean": "7798091030527",
+          "product_name": "Cerveza artesanal Antares Espiritu Lager 473 ml",
+          "price": 2600.0,
+          "list_price": 4000.0,
           "discount_pct": 35,
           "badges": [],
           "is_new": false
@@ -1135,21 +825,11 @@
           "is_new": false
         },
         {
-          "product_id": "687368",
-          "ean": "7798000213515",
-          "product_name": "Vino tinto Malbec Fabre Montmayou 750 ml",
-          "price": 11374.35,
-          "list_price": 17499.0,
-          "discount_pct": 35,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "655372",
-          "ean": "7790290101480",
-          "product_name": "Fernet Branca menta 450 cc.",
-          "price": 9077.25,
-          "list_price": 13965.0,
+          "product_id": "684152",
+          "ean": "7791250003110",
+          "product_name": "Vodka Smirnoff ice original lata 473 cc.",
+          "price": 2579.85,
+          "list_price": 3969.0,
           "discount_pct": 35,
           "badges": [],
           "is_new": false
@@ -1195,6 +875,16 @@
           "is_new": false
         },
         {
+          "product_id": "687369",
+          "ean": "7798000213522",
+          "product_name": "Vino tinto Cabernet Sauvignon Fabre Montmayou 750 ml",
+          "price": 11374.35,
+          "list_price": 17499.0,
+          "discount_pct": 35,
+          "badges": [],
+          "is_new": false
+        },
+        {
           "product_id": "687366",
           "ean": "7798000210545",
           "product_name": "Vino tinto Malbec Petit Verdot H.J Fabre 750 ml",
@@ -1215,16 +905,6 @@
           "is_new": false
         },
         {
-          "product_id": "684152",
-          "ean": "7791250003110",
-          "product_name": "Vodka Smirnoff ice original lata 473 cc.",
-          "price": 2579.85,
-          "list_price": 3969.0,
-          "discount_pct": 35,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "666125",
           "ean": "7790290101527",
           "product_name": "Vodka Sernova wild berries 700 ml",
@@ -1235,11 +915,11 @@
           "is_new": false
         },
         {
-          "product_id": "687369",
-          "ean": "7798000213522",
-          "product_name": "Vino tinto Cabernet Sauvignon Fabre Montmayou 750 ml",
-          "price": 11374.35,
-          "list_price": 17499.0,
+          "product_id": "655372",
+          "ean": "7790290101480",
+          "product_name": "Fernet Branca menta 450 cc.",
+          "price": 9077.25,
+          "list_price": 13965.0,
           "discount_pct": 35,
           "badges": [],
           "is_new": false
@@ -1330,6 +1010,26 @@
           "product_name": "Vino blanco clásico Viñas de Alvear 1,125 lts",
           "price": 2700.0,
           "list_price": 3899.0,
+          "discount_pct": 31,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "762750",
+          "ean": "7794450947963",
+          "product_name": "Vino blanco orgánico Chenin La Posta La Libertad 750 ml",
+          "price": 14000.0,
+          "list_price": 20200.0,
+          "discount_pct": 31,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "762749",
+          "ean": "7794450947918",
+          "product_name": "Vino tinto orgánico Malbec La Posta La Libertad 750 ml",
+          "price": 14000.0,
+          "list_price": 20200.0,
           "discount_pct": 31,
           "badges": [],
           "is_new": false
@@ -1495,6 +1195,16 @@
           "is_new": false
         },
         {
+          "product_id": "689292",
+          "ean": "7795930002097",
+          "product_name": "Agua mineral sin gas Eco de los Andes 850 ml",
+          "price": 1827.0,
+          "list_price": 2610.0,
+          "discount_pct": 30,
+          "badges": [],
+          "is_new": false
+        },
+        {
           "product_id": "635704",
           "ean": "7795930000567",
           "product_name": "Agua mineralizada sin gas Glaciar bajo sodio 750 ml",
@@ -1510,16 +1220,6 @@
           "product_name": "Agua mineral sin gas Eco de los Andes 1 lt",
           "price": 1900.5,
           "list_price": 2715.0,
-          "discount_pct": 30,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "689292",
-          "ean": "7795930002097",
-          "product_name": "Agua mineral sin gas Eco de los Andes 850 ml",
-          "price": 1827.0,
-          "list_price": 2610.0,
           "discount_pct": 30,
           "badges": [],
           "is_new": false
@@ -1565,9 +1265,9 @@
           "is_new": false
         },
         {
-          "product_id": "356134",
-          "ean": "7790189021042",
-          "product_name": "Vino tinto Tannat Elementos 750 ml",
+          "product_id": "542426",
+          "ean": "7798136300387",
+          "product_name": "Vino blanco Torrentés dulce Elementos 750 ml",
           "price": 5123.3,
           "list_price": 7319.0,
           "discount_pct": 30,
@@ -1575,11 +1275,11 @@
           "is_new": false
         },
         {
-          "product_id": "763467",
-          "ean": "7790984005988",
-          "product_name": "Vino blanco dulce Muñeco Rebelde en botella 750 ml",
-          "price": 3300.0,
-          "list_price": 4725.0,
+          "product_id": "356134",
+          "ean": "7790189021042",
+          "product_name": "Vino tinto Tannat Elementos 750 ml",
+          "price": 5123.3,
+          "list_price": 7319.0,
           "discount_pct": 30,
           "badges": [],
           "is_new": false
@@ -1640,6 +1340,16 @@
           "product_name": "Vino blanco Sauvignon Blanc Portillo 750 ml",
           "price": 4999.0,
           "list_price": 6990.0,
+          "discount_pct": 28,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "725349",
+          "ean": "7790070760777",
+          "product_name": "Vino blanco dulce natural Emilia 750 ml",
+          "price": 6500.0,
+          "list_price": 8999.0,
           "discount_pct": 28,
           "badges": [],
           "is_new": false
@@ -1715,6 +1425,56 @@
           "is_new": false
         },
         {
+          "product_id": "722942",
+          "ean": "7790070760630",
+          "product_name": "Vino rosado dulce Benjamin 750 ml",
+          "price": 4800.0,
+          "list_price": 6699.0,
+          "discount_pct": 28,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "718557",
+          "ean": "7798074864811",
+          "product_name": "Vino rosado Malbec Portillo 750 ml",
+          "price": 4999.0,
+          "list_price": 6990.0,
+          "discount_pct": 28,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "718556",
+          "ean": "7798074864798",
+          "product_name": "Vino tinto Cabernet Sauvignon Portillo 750ml",
+          "price": 4999.0,
+          "list_price": 6990.0,
+          "discount_pct": 28,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "738284",
+          "ean": "7790070760784",
+          "product_name": "Vino tinto red blend Emilia en botella 750 cc.",
+          "price": 6500.0,
+          "list_price": 9000.0,
+          "discount_pct": 28,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "721779",
+          "ean": "7790070760562",
+          "product_name": "Vino tinto Cabernet Benjamín 750 ml",
+          "price": 4800.0,
+          "list_price": 6700.0,
+          "discount_pct": 28,
+          "badges": [],
+          "is_new": false
+        },
+        {
           "product_id": "718563",
           "ean": "7798074864897",
           "product_name": "Vino tinto Syrah Portillo 750 ml",
@@ -1765,6 +1525,16 @@
           "is_new": false
         },
         {
+          "product_id": "722949",
+          "ean": "7790070760791",
+          "product_name": "Vino blanco Sauvignon Blanc Emilia 750 ml",
+          "price": 6500.0,
+          "list_price": 8999.0,
+          "discount_pct": 28,
+          "badges": [],
+          "is_new": false
+        },
+        {
           "product_id": "630100",
           "ean": "7798119220183",
           "product_name": "Bebida energizante Speed 473 ml",
@@ -1790,6 +1560,16 @@
           "product_name": "Bebida energizante Speed 250 ml",
           "price": 1526.25,
           "list_price": 2035.0,
+          "discount_pct": 25,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "787174",
+          "ean": "7798119220428",
+          "product_name": "Energizante tropical Speed lata 473 ml",
+          "price": 2286.33,
+          "list_price": 3048.44,
           "discount_pct": 25,
           "badges": [],
           "is_new": false
@@ -1825,21 +1605,21 @@
           "is_new": false
         },
         {
-          "product_id": "6650",
-          "ean": "7790950000160",
-          "product_name": "Aperitivo americano Gancia en botella 950 ml",
-          "price": 7949.25,
-          "list_price": 10599.0,
+          "product_id": "542059",
+          "ean": "7891136057029",
+          "product_name": "Aperitivo Aperol 750 cc",
+          "price": 11864.25,
+          "list_price": 15819.0,
           "discount_pct": 25,
           "badges": [],
           "is_new": false
         },
         {
-          "product_id": "764482",
-          "ean": "7791728249385",
-          "product_name": "Vino blanco Chenin Dulce Santa Julia en lata 269 ml",
-          "price": 2346.75,
-          "list_price": 3129.0,
+          "product_id": "6650",
+          "ean": "7790950000160",
+          "product_name": "Aperitivo americano Gancia en botella 950 ml",
+          "price": 7949.25,
+          "list_price": 10599.0,
           "discount_pct": 25,
           "badges": [],
           "is_new": false
@@ -1860,6 +1640,16 @@
           "product_name": "Aperitivo con alcohol Campari bitter 750 cc.",
           "price": 11864.25,
           "list_price": 15819.0,
+          "discount_pct": 25,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "736175",
+          "ean": "7798119220381",
+          "product_name": "Bebida energizante Speed Zero Sugar 473 ml",
+          "price": 2283.75,
+          "list_price": 3045.0,
           "discount_pct": 25,
           "badges": [],
           "is_new": false
@@ -1895,16 +1685,6 @@
           "is_new": false
         },
         {
-          "product_id": "542059",
-          "ean": "7891136057029",
-          "product_name": "Aperitivo Aperol 750 cc",
-          "price": 11864.25,
-          "list_price": 15819.0,
-          "discount_pct": 25,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "295503",
           "ean": "7792316001019",
           "product_name": "Sidra etiqueta blanca La Victoria 720 cc.",
@@ -1920,6 +1700,36 @@
           "product_name": "Vino tinto Cabernet Franc Malbec Barrel Blend Salentein 750 ml",
           "price": 8475.0,
           "list_price": 11300.0,
+          "discount_pct": 25,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "764482",
+          "ean": "7791728249385",
+          "product_name": "Vino blanco Chenin Dulce Santa Julia en lata 269 ml",
+          "price": 2346.75,
+          "list_price": 3129.0,
+          "discount_pct": 25,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "741247",
+          "ean": "7791250003325",
+          "product_name": "Gordons pink gin en botella 700 cc",
+          "price": 15974.25,
+          "list_price": 21299.0,
+          "discount_pct": 25,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "723741",
+          "ean": "7798074865191",
+          "product_name": "Vino tinto Malbec Killka 750 ml",
+          "price": 7575.0,
+          "list_price": 10100.0,
           "discount_pct": 25,
           "badges": [],
           "is_new": false
@@ -2025,11 +1835,21 @@
           "is_new": false
         },
         {
-          "product_id": "741247",
-          "ean": "7791250003325",
-          "product_name": "Gordons pink gin en botella 700 cc",
-          "price": 15974.25,
-          "list_price": 21299.0,
+          "product_id": "723739",
+          "ean": "7798074865139",
+          "product_name": "Vino tinto Cabernet Killka 750 ml",
+          "price": 7575.0,
+          "list_price": 10100.0,
+          "discount_pct": 25,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "719774",
+          "ean": "7798108833950",
+          "product_name": "Vino tinto Malbec Callia 750 ml",
+          "price": 4500.0,
+          "list_price": 6000.0,
           "discount_pct": 25,
           "badges": [],
           "is_new": false
@@ -2175,16 +1995,6 @@
           "is_new": false
         },
         {
-          "product_id": "750134",
-          "ean": "7798054013659",
-          "product_name": "Sidra sin alcohol Fiestita ananá pet 1 lt",
-          "price": 3449.25,
-          "list_price": 4599.0,
-          "discount_pct": 25,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "744466",
           "ean": "7791250003400",
           "product_name": "Vodka Smirnoff tamarindo en botella 700 cc",
@@ -2200,6 +2010,36 @@
           "product_name": "Aperitivo hibiscus rosato Ramazzotti en botella 700 cc.",
           "price": 9359.25,
           "list_price": 12479.0,
+          "discount_pct": 25,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "723744",
+          "ean": "7798074865214",
+          "product_name": "Vino blanco Sauvignon Blanc Killka 750 ml",
+          "price": 7575.0,
+          "list_price": 10100.0,
+          "discount_pct": 25,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "723743",
+          "ean": "7798074865153",
+          "product_name": "Vino tinto Blend Killka 750 ml",
+          "price": 7575.0,
+          "list_price": 10100.0,
+          "discount_pct": 25,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "723742",
+          "ean": "7798074865177",
+          "product_name": "Vino blanco Malbec Killka selentein 630 ml",
+          "price": 7575.0,
+          "list_price": 10100.0,
           "discount_pct": 25,
           "badges": [],
           "is_new": false
@@ -2230,6 +2070,16 @@
           "product_name": "Sidra Del valle fresa en lata 473 cc.",
           "price": 2175.0,
           "list_price": 2900.0,
+          "discount_pct": 25,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "695499",
+          "ean": "7312040017683",
+          "product_name": "Vodka Absolut botella 700 cc.",
+          "price": 22266.75,
+          "list_price": 29689.0,
           "discount_pct": 25,
           "badges": [],
           "is_new": false
@@ -2295,6 +2145,16 @@
           "is_new": false
         },
         {
+          "product_id": "17084",
+          "ean": "5000281003160",
+          "product_name": "Whisky Old parr 12 años botella 750 ml",
+          "price": 49875.0,
+          "list_price": 66500.0,
+          "discount_pct": 25,
+          "badges": [],
+          "is_new": false
+        },
+        {
           "product_id": "6725",
           "ean": "5000267014005",
           "product_name": "Whisky Johnnie Walker red label botella 750 ml",
@@ -2330,6 +2190,16 @@
           "product_name": "Whisky importado J&B en botella 750 ml",
           "price": 24524.25,
           "list_price": 32699.0,
+          "discount_pct": 25,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "745757",
+          "ean": "7312040350308",
+          "product_name": "Vodka wild berri Absolut en botella 700 cc.",
+          "price": 24809.25,
+          "list_price": 33079.0,
           "discount_pct": 25,
           "badges": [],
           "is_new": false
@@ -2385,11 +2255,11 @@
           "is_new": false
         },
         {
-          "product_id": "695499",
-          "ean": "7312040017683",
-          "product_name": "Vodka Absolut botella 700 cc.",
-          "price": 22266.75,
-          "list_price": 29689.0,
+          "product_id": "695509",
+          "ean": "5011007024000",
+          "product_name": "Whisky Jameson importado black barrel 700 cc.",
+          "price": 56774.25,
+          "list_price": 75699.0,
           "discount_pct": 25,
           "badges": [],
           "is_new": false
@@ -2425,16 +2295,6 @@
           "is_new": false
         },
         {
-          "product_id": "17084",
-          "ean": "5000281003160",
-          "product_name": "Whisky Old parr 12 años botella 750 ml",
-          "price": 49875.0,
-          "list_price": 66500.0,
-          "discount_pct": 25,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "784533",
           "ean": "5000291027729",
           "product_name": "Gin Bossa Nova Tanqueray en botella 700 ml",
@@ -2465,41 +2325,11 @@
           "is_new": false
         },
         {
-          "product_id": "745766",
-          "ean": "7312040350209",
-          "product_name": "Vodka mango Absolut en botella 700 cc.",
-          "price": 25994.25,
-          "list_price": 34659.0,
-          "discount_pct": 25,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "745757",
-          "ean": "7312040350308",
-          "product_name": "Vodka wild berri Absolut en botella 700 cc.",
-          "price": 24809.25,
-          "list_price": 33079.0,
-          "discount_pct": 25,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "730278",
           "ean": "7791728247725",
           "product_name": "Vino tinto Blend Reserva Santa Julia 750 ml",
           "price": 7431.75,
           "list_price": 9909.0,
-          "discount_pct": 25,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "730276",
-          "ean": "7791728247718",
-          "product_name": "Vino tinto Ryrah Reserva Santa Julia 750 ml",
-          "price": 7653.75,
-          "list_price": 10205.0,
           "discount_pct": 25,
           "badges": [],
           "is_new": false
@@ -2525,6 +2355,26 @@
           "is_new": false
         },
         {
+          "product_id": "727026",
+          "ean": "7790154008641",
+          "product_name": "Sidra Pyrus cider en botela 750 cc.",
+          "price": 5692.5,
+          "list_price": 7590.0,
+          "discount_pct": 25,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "723740",
+          "ean": "7798074865115",
+          "product_name": "Vino blanco Chardonnay Killka 750 ml",
+          "price": 7575.0,
+          "list_price": 10100.0,
+          "discount_pct": 25,
+          "badges": [],
+          "is_new": false
+        },
+        {
           "product_id": "704970",
           "ean": "5000291026548",
           "product_name": "Gin Tanqueray royale 700 cc",
@@ -2545,16 +2395,6 @@
           "is_new": false
         },
         {
-          "product_id": "695509",
-          "ean": "5011007024000",
-          "product_name": "Whisky Jameson importado black barrel 700 cc.",
-          "price": 56774.25,
-          "list_price": 75699.0,
-          "discount_pct": 25,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "682791",
           "ean": "7791250003011",
           "product_name": "Aperitivo grapefruit lime BC Smirnoff 700 cc.",
@@ -2570,6 +2410,16 @@
           "product_name": "Gin Tanqueray sevilla 700 cc",
           "price": 34574.25,
           "list_price": 46099.0,
+          "discount_pct": 25,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "638405",
+          "ean": "7790119002509",
+          "product_name": "Sidra Real Etiqueta Negra 720 cc.",
+          "price": 6037.5,
+          "list_price": 8050.0,
           "discount_pct": 25,
           "badges": [],
           "is_new": false
@@ -2600,6 +2450,36 @@
           "product_name": "Gin pomelo rosado Heredero en botella 700 ml",
           "price": 14460.0,
           "list_price": 19280.0,
+          "discount_pct": 25,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "745766",
+          "ean": "7312040350209",
+          "product_name": "Vodka mango Absolut en botella 700 cc.",
+          "price": 25994.25,
+          "list_price": 34659.0,
+          "discount_pct": 25,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "730276",
+          "ean": "7791728247718",
+          "product_name": "Vino tinto Ryrah Reserva Santa Julia 750 ml",
+          "price": 7653.75,
+          "list_price": 10205.0,
+          "discount_pct": 25,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "730272",
+          "ean": "7791728247732",
+          "product_name": "Vino tinto Cabernet Sauvignon Santa Julia 750 ml",
+          "price": 5126.25,
+          "list_price": 6835.0,
           "discount_pct": 25,
           "badges": [],
           "is_new": false
@@ -2645,41 +2525,11 @@
           "is_new": false
         },
         {
-          "product_id": "638405",
-          "ean": "7790119002509",
-          "product_name": "Sidra Real Etiqueta Negra 720 cc.",
-          "price": 6037.5,
-          "list_price": 8050.0,
-          "discount_pct": 25,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "300688",
           "ean": "80432402733",
           "product_name": "Whisky importado 12 años Chivas regal 500 cc.",
           "price": 34394.25,
           "list_price": 45859.0,
-          "discount_pct": 25,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "730272",
-          "ean": "7791728247732",
-          "product_name": "Vino tinto Cabernet Sauvignon Santa Julia 750 ml",
-          "price": 5126.25,
-          "list_price": 6835.0,
-          "discount_pct": 25,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "727026",
-          "ean": "7790154008641",
-          "product_name": "Sidra Pyrus cider en botela 750 cc.",
-          "price": 5692.5,
-          "list_price": 7590.0,
           "discount_pct": 25,
           "badges": [],
           "is_new": false
@@ -2745,11 +2595,51 @@
           "is_new": false
         },
         {
+          "product_id": "743997",
+          "ean": "7790984003588",
+          "product_name": "Vino blanco dulce tardío La Fusta 750 ml",
+          "price": 2800.0,
+          "list_price": 3650.0,
+          "discount_pct": 23,
+          "badges": [],
+          "is_new": false
+        },
+        {
           "product_id": "743990",
           "ean": "7790984003564",
           "product_name": "Vino tinto Cabernet Sauvignon La Fusta 750 ml",
           "price": 2800.0,
           "list_price": 3650.0,
+          "discount_pct": 23,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "720464",
+          "ean": "7794450093509",
+          "product_name": "Vino tinto Malbec La Posta Paulucci 750 ml",
+          "price": 14000.0,
+          "list_price": 18300.0,
+          "discount_pct": 23,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "710760",
+          "ean": "7794450093516",
+          "product_name": "Vino tinto Malbec La Posta Pizzela 750 ml",
+          "price": 14000.0,
+          "list_price": 18300.0,
+          "discount_pct": 23,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "720463",
+          "ean": "7794450093523",
+          "product_name": "Vino tinto Bonarda La Posta Armando 750 ml",
+          "price": 14000.0,
+          "list_price": 18300.0,
           "discount_pct": 23,
           "badges": [],
           "is_new": false
@@ -2761,6 +2651,16 @@
           "price": 2320.0,
           "list_price": 2969.0,
           "discount_pct": 22,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "740265",
+          "ean": "7791813888468",
+          "product_name": "Gaseosa cola regular Pepsi 2 lts.",
+          "price": 3640.0,
+          "list_price": 4550.0,
+          "discount_pct": 20,
           "badges": [],
           "is_new": false
         },
@@ -2785,11 +2685,11 @@
           "is_new": false
         },
         {
-          "product_id": "740265",
-          "ean": "7791813888468",
-          "product_name": "Gaseosa cola regular Pepsi 2 lts.",
-          "price": 3640.0,
-          "list_price": 4550.0,
+          "product_id": "92529",
+          "ean": "7791813421382",
+          "product_name": "Gaseosa pomelo Paso de los Toros 1,5 lts",
+          "price": 3200.0,
+          "list_price": 4000.0,
           "discount_pct": 20,
           "badges": [],
           "is_new": false
@@ -2835,6 +2735,16 @@
           "is_new": false
         },
         {
+          "product_id": "679034",
+          "ean": "7791813423966",
+          "product_name": "Gaseosa pomelo Mirinda regular pet 2,25 lts",
+          "price": 1960.0,
+          "list_price": 2450.0,
+          "discount_pct": 20,
+          "badges": [],
+          "is_new": false
+        },
+        {
           "product_id": "672275",
           "ean": "7791813080039",
           "product_name": "Gaseosa pomelo Paso de los Toros sin azúcar pet 1,5 lts",
@@ -2845,21 +2755,11 @@
           "is_new": false
         },
         {
-          "product_id": "92529",
-          "ean": "7791813421382",
-          "product_name": "Gaseosa pomelo Paso de los Toros 1,5 lts",
-          "price": 3200.0,
-          "list_price": 4000.0,
-          "discount_pct": 20,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "679034",
-          "ean": "7791813423966",
-          "product_name": "Gaseosa pomelo Mirinda regular pet 2,25 lts",
-          "price": 1960.0,
-          "list_price": 2450.0,
+          "product_id": "703005",
+          "ean": "7790950143690",
+          "product_name": "Aperitivo sin alcohol Pomelo Terma sin azúcar 1,35 lts",
+          "price": 2399.0,
+          "list_price": 2999.0,
           "discount_pct": 20,
           "badges": [],
           "is_new": false
@@ -2875,11 +2775,51 @@
           "is_new": false
         },
         {
+          "product_id": "591724",
+          "ean": "7790950133349",
+          "product_name": "Aperitivo sin alcohol Cuyano Terma Cero 1,35 lts",
+          "price": 2399.0,
+          "list_price": 2999.0,
+          "discount_pct": 20,
+          "badges": [],
+          "is_new": false
+        },
+        {
           "product_id": "591722",
           "ean": "7790950133325",
           "product_name": "Aperitivo sin alcohol Serrano Terma Cero 1,35 lts",
           "price": 2399.0,
           "list_price": 2999.0,
+          "discount_pct": 20,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "591718",
+          "ean": "7790950133288",
+          "product_name": "Aperitivo sin alcohol Limón Terma Cero 1,35 lts",
+          "price": 2399.0,
+          "list_price": 2999.0,
+          "discount_pct": 20,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "576013",
+          "ean": "7790950003420",
+          "product_name": "Aperitivo sin alcohol Serrano Tres Torres 1,5 lts",
+          "price": 1335.0,
+          "list_price": 1659.0,
+          "discount_pct": 20,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "576010",
+          "ean": "7790950003437",
+          "product_name": "Aperitivo sin alcohol blanco Tres Torres 1,5 lts",
+          "price": 1335.0,
+          "list_price": 1659.0,
           "discount_pct": 20,
           "badges": [],
           "is_new": false
@@ -2895,11 +2835,21 @@
           "is_new": false
         },
         {
-          "product_id": "780948",
-          "ean": "9002490301217",
-          "product_name": "Bebida energizante zero Red Bull en lata 250 ml",
+          "product_id": "769305",
+          "ean": "9002490288341",
+          "product_name": "Bebida energizante Red Bull Summer Pomerlo en lata 250 ml",
           "price": 3039.2,
           "list_price": 3799.0,
+          "discount_pct": 20,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "673465",
+          "ean": "7790950141030",
+          "product_name": "Aperitivo sin alcohol Patagónico Terma Cero 1,35 lts",
+          "price": 2399.0,
+          "list_price": 3000.0,
           "discount_pct": 20,
           "badges": [],
           "is_new": false
@@ -2925,6 +2875,16 @@
           "is_new": false
         },
         {
+          "product_id": "601585",
+          "ean": "7790950133370",
+          "product_name": "Aperitivo sin alcohol Manzana Terma Cero 1,35 lts",
+          "price": 2399.0,
+          "list_price": 2999.0,
+          "discount_pct": 20,
+          "badges": [],
+          "is_new": false
+        },
+        {
           "product_id": "591726",
           "ean": "7790950133356",
           "product_name": "Aperitivo sin alcohol Patagonico Terma 1,35 lts",
@@ -2935,11 +2895,11 @@
           "is_new": false
         },
         {
-          "product_id": "576010",
-          "ean": "7790950003437",
-          "product_name": "Aperitivo sin alcohol blanco Tres Torres 1,5 lts",
-          "price": 1335.0,
-          "list_price": 1659.0,
+          "product_id": "591715",
+          "ean": "7790950133271",
+          "product_name": "Aperitivo sin alcohol Limón Terma 1,35 lts",
+          "price": 2399.0,
+          "list_price": 2999.0,
           "discount_pct": 20,
           "badges": [],
           "is_new": false
@@ -2955,9 +2915,9 @@
           "is_new": false
         },
         {
-          "product_id": "769305",
-          "ean": "9002490288341",
-          "product_name": "Bebida energizante Red Bull Summer Pomerlo en lata 250 ml",
+          "product_id": "780948",
+          "ean": "9002490301217",
+          "product_name": "Bebida energizante zero Red Bull en lata 250 ml",
           "price": 3039.2,
           "list_price": 3799.0,
           "discount_pct": 20,
@@ -2995,6 +2955,16 @@
           "is_new": false
         },
         {
+          "product_id": "703006",
+          "ean": "7790950143706",
+          "product_name": "Aperitivo sin alcohol Citrus Terma sin azúcar 1,35 lts",
+          "price": 2399.0,
+          "list_price": 3000.0,
+          "discount_pct": 20,
+          "badges": [],
+          "is_new": false
+        },
+        {
           "product_id": "694099",
           "ean": "7790950143393",
           "product_name": "Aperitivo sin alcohol Citrus Tres Torres 1,5 lts",
@@ -3015,9 +2985,9 @@
           "is_new": false
         },
         {
-          "product_id": "591719",
-          "ean": "7790950133318",
-          "product_name": "Aperitivo sin alcohol Serrano Terma 1,3 lts",
+          "product_id": "591725",
+          "ean": "7790950133257",
+          "product_name": "Aperitivo sin alcohol Pomelo Terma 1,35 lts",
           "price": 2399.0,
           "list_price": 2999.0,
           "discount_pct": 20,
@@ -3025,21 +2995,11 @@
           "is_new": false
         },
         {
-          "product_id": "703006",
-          "ean": "7790950143706",
-          "product_name": "Aperitivo sin alcohol Citrus Terma sin azúcar 1,35 lts",
+          "product_id": "591719",
+          "ean": "7790950133318",
+          "product_name": "Aperitivo sin alcohol Serrano Terma 1,3 lts",
           "price": 2399.0,
-          "list_price": 3000.0,
-          "discount_pct": 20,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "745753",
-          "ean": "7792410532433",
-          "product_name": "Ron blanco original 3 años Havana Club en botella 750 cc.",
-          "price": 16119.2,
-          "list_price": 20149.0,
+          "list_price": 2999.0,
           "discount_pct": 20,
           "badges": [],
           "is_new": false
@@ -3065,21 +3025,21 @@
           "is_new": false
         },
         {
-          "product_id": "622114",
-          "ean": "7790950135992",
-          "product_name": "Aperitivo sin alcohol Citrus Terma 1,35 lts",
-          "price": 2399.0,
-          "list_price": 3000.0,
-          "discount_pct": 20,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "755849",
           "ean": "7792410544023",
           "product_name": "Gin pink Birghton en botella 700 ml",
           "price": 11855.2,
           "list_price": 14819.0,
+          "discount_pct": 20,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "622114",
+          "ean": "7790950135992",
+          "product_name": "Aperitivo sin alcohol Citrus Terma 1,35 lts",
+          "price": 2399.0,
+          "list_price": 3000.0,
           "discount_pct": 20,
           "badges": [],
           "is_new": false
@@ -3135,12 +3095,32 @@
           "is_new": false
         },
         {
-          "product_id": "653112",
-          "ean": "7798167047923",
-          "product_name": "Fernet con cola 1882 473 cc.",
-          "price": 1808.0,
-          "list_price": 2235.0,
-          "discount_pct": 19,
+          "product_id": "743983",
+          "ean": "7790984003557",
+          "product_name": "Vino tinto Malbec La Fusta 750 ml",
+          "price": 2800.0,
+          "list_price": 3395.0,
+          "discount_pct": 18,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "413726",
+          "ean": "7790139002879",
+          "product_name": "Fernet 1882 750 cc",
+          "price": 9638.0,
+          "list_price": 11770.0,
+          "discount_pct": 18,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "583261",
+          "ean": "7790950130805",
+          "product_name": "Aperitivo sin alcohol Limón Terma Light 1,75 lts",
+          "price": 2809.0,
+          "list_price": 3309.0,
+          "discount_pct": 15,
           "badges": [],
           "is_new": false
         },
@@ -3165,11 +3145,31 @@
           "is_new": false
         },
         {
+          "product_id": "560472",
+          "ean": "7790950128468",
+          "product_name": "Aperitivo sin alcohol Pomelo Rosado Terma 1,75 lts",
+          "price": 2809.0,
+          "list_price": 3309.0,
+          "discount_pct": 15,
+          "badges": [],
+          "is_new": false
+        },
+        {
           "product_id": "653069",
           "ean": "7790950139273",
           "product_name": "Aperitivo sin alcohol Citrus Terma 1,75 lts",
           "price": 2809.0,
           "list_price": 3309.0,
+          "discount_pct": 15,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "54617",
+          "ean": "7790950001969",
+          "product_name": "Aperitivo Amargo Obrero 950 cc.",
+          "price": 5250.0,
+          "list_price": 6205.0,
           "discount_pct": 15,
           "badges": [],
           "is_new": false
@@ -3555,9 +3555,9 @@
           "is_new": false
         },
         {
-          "product_id": "722114",
-          "ean": "7791720029206",
-          "product_name": "Jugo en polvo diet Carrefour classic de manzana 7.5 g.",
+          "product_id": "722113",
+          "ean": "7791720029190",
+          "product_name": "Jugo en polvo diet Carrefour classic sabor naranja 7.5 g.",
           "price": 283.91,
           "list_price": 319.0,
           "discount_pct": 11,
@@ -3565,9 +3565,9 @@
           "is_new": false
         },
         {
-          "product_id": "722113",
-          "ean": "7791720029190",
-          "product_name": "Jugo en polvo diet Carrefour classic sabor naranja 7.5 g.",
+          "product_id": "722114",
+          "ean": "7791720029206",
+          "product_name": "Jugo en polvo diet Carrefour classic de manzana 7.5 g.",
           "price": 283.91,
           "list_price": 319.0,
           "discount_pct": 11,
@@ -3580,16 +3580,6 @@
           "product_name": "Gaseosa limón regular Carrefour Classic pet 2.25 lts",
           "price": 1949.1,
           "list_price": 2190.0,
-          "discount_pct": 11,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "770412",
-          "ean": "8006063901911",
-          "product_name": "Licor Polini crema al pistacchio en botella 520 ml",
-          "price": 17800.0,
-          "list_price": 20000.0,
           "discount_pct": 11,
           "badges": [],
           "is_new": false
@@ -3608,6 +3598,16 @@
           "product_id": "770413",
           "ean": "8006063901935",
           "product_name": "Licor Polini crema al limón en botella 520 ml",
+          "price": 17800.0,
+          "list_price": 20000.0,
+          "discount_pct": 11,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "770412",
+          "ean": "8006063901911",
+          "product_name": "Licor Polini crema al pistacchio en botella 520 ml",
           "price": 17800.0,
           "list_price": 20000.0,
           "discount_pct": 11,
@@ -3641,29 +3641,117 @@
       "name": "Vea",
       "offers": [
         {
-          "product_id": "313287",
-          "ean": "7792798009107",
-          "product_name": "Cerveza Sin Alcohol 473 Cc Quilmes",
-          "price": 2190.0,
-          "list_price": 180992.0,
+          "product_id": "20038",
+          "ean": "7793147118822",
+          "product_name": "Cerveza Rubia 473 Ml Budweiser",
+          "price": 3190.0,
+          "list_price": 263636.0,
           "discount_pct": 0,
           "badges": [
-            "2X1 en cervezas seleccionadas",
-            "Hasta 40% off en cervezas 0.0 seleccioandas"
+            "Hasta 2do al 70% en Almacén y Bebidas"
           ],
           "is_new": true
         },
         {
-          "product_id": "313285",
-          "ean": "7792798009114",
-          "product_name": "Cerveza 473 Ml X 6 U Quilmes",
-          "price": 13290.0,
-          "list_price": 1098347.0,
+          "product_id": "46492",
+          "ean": "7793147118846",
+          "product_name": "Cerveza Budweiser 473 Ml X 6 Un",
+          "price": 18590.0,
+          "list_price": 1536364.0,
+          "discount_pct": 0,
+          "badges": [
+            "Hasta 2do al 70% en Almacén y Bebidas"
+          ],
+          "is_new": true
+        },
+        {
+          "product_id": "259849",
+          "ean": "7792798999866",
+          "product_name": "Cerveza Rubia 473 Cc Andes",
+          "price": 3490.0,
+          "list_price": 288430.0,
           "discount_pct": 0,
           "badges": [
             "2X1 en cervezas seleccionadas",
-            "Hasta 2do al 70% en Almacén y Bebidas",
-            "Hasta 40% off en cervezas 0.0 seleccioandas"
+            "3x2 en cervezas seleccionadas Andes Origen"
+          ],
+          "is_new": true
+        },
+        {
+          "product_id": "259837",
+          "ean": "7792798001712",
+          "product_name": "Cerveza Andes Origen Rubia 473cc 6un",
+          "price": 21190.0,
+          "list_price": 1751240.0,
+          "discount_pct": 0,
+          "badges": [
+            "2X1 en cervezas seleccionadas",
+            "3x2 en cervezas seleccionadas Andes Origen",
+            "Hasta 2do al 70% en Almacén y Bebidas"
+          ],
+          "is_new": true
+        },
+        {
+          "product_id": "29444",
+          "ean": "7793147000752",
+          "product_name": "Cerveza Extra Lager 473 Cc Imperial",
+          "price": 3290.0,
+          "list_price": 271901.0,
+          "discount_pct": 0,
+          "badges": [
+            "Hasta 2do al 70% en Almacén y Bebidas"
+          ],
+          "is_new": true
+        },
+        {
+          "product_id": "413100",
+          "ean": "7792798014163",
+          "product_name": "Cerveza Andes Origen Rubia 710 Cc 4 U",
+          "price": 19690.0,
+          "list_price": 1627273.0,
+          "discount_pct": 0,
+          "badges": [
+            "Hasta 2do al 70% en Almacén y Bebidas"
+          ],
+          "is_new": true
+        },
+        {
+          "product_id": "410216",
+          "ean": "7792798014156",
+          "product_name": "Cerveza Andes Origen Rubia 710 Ml",
+          "price": 4890.0,
+          "list_price": 404132.0,
+          "discount_pct": 0,
+          "badges": [
+            "2X1 en cervezas seleccionadas",
+            "3x2 en cervezas seleccionadas Andes Origen"
+          ],
+          "is_new": true
+        },
+        {
+          "product_id": "271111",
+          "ean": "7792798002320",
+          "product_name": "Cerveza Negra 473 Cc Andes",
+          "price": 3690.0,
+          "list_price": 304959.0,
+          "discount_pct": 0,
+          "badges": [
+            "2X1 en cervezas seleccionadas",
+            "3x2 en cervezas seleccionadas Andes Origen"
+          ],
+          "is_new": true
+        },
+        {
+          "product_id": "271116",
+          "ean": "7792798002344",
+          "product_name": "Cerveza Andes Origen Negra 473cc 6un",
+          "price": 22490.0,
+          "list_price": 1858678.0,
+          "discount_pct": 0,
+          "badges": [
+            "2X1 en cervezas seleccionadas",
+            "3x2 en cervezas seleccionadas Andes Origen",
+            "Hasta 2do al 70% en Almacén y Bebidas"
           ],
           "is_new": true
         },
@@ -3685,6 +3773,18 @@
           "product_name": "Cerveza Quilmes Clasica 710cc",
           "price": 3790.0,
           "list_price": 313223.0,
+          "discount_pct": 0,
+          "badges": [
+            "Hasta 2do al 70% en Almacén y Bebidas"
+          ],
+          "is_new": false
+        },
+        {
+          "product_id": "416466",
+          "ean": "7791813828464",
+          "product_name": "Gaseosa Pepsi Black 2 L",
+          "price": 4390.0,
+          "list_price": 362810.0,
           "discount_pct": 0,
           "badges": [
             "Hasta 2do al 70% en Almacén y Bebidas"
@@ -3714,18 +3814,6 @@
             "Hasta 2do al 70% en Almacén y Bebidas",
             "Hasta 35% off en Corona 0.0 seleccionada",
             "Hasta 40% off en cervezas 0.0 seleccioandas"
-          ],
-          "is_new": false
-        },
-        {
-          "product_id": "416466",
-          "ean": "7791813828464",
-          "product_name": "Gaseosa Pepsi Black 2 L",
-          "price": 4390.0,
-          "list_price": 362810.0,
-          "discount_pct": 0,
-          "badges": [
-            "Hasta 2do al 70% en Almacén y Bebidas"
           ],
           "is_new": false
         },
@@ -3973,11 +4061,35 @@
           "is_new": false
         },
         {
+          "product_id": "16300",
+          "ean": "7790895068096",
+          "product_name": "Coca-cola Zero 2,5 Lt",
+          "price": 5990.0,
+          "list_price": 495041.0,
+          "discount_pct": 0,
+          "badges": [
+            "Hasta 2do al 70% en Almacén y Bebidas"
+          ],
+          "is_new": false
+        },
+        {
           "product_id": "7613",
           "ean": "7793147000899",
           "product_name": "Cerveza Rubia 1 Lts Heineken",
           "price": 7290.0,
           "list_price": 602479.0,
+          "discount_pct": 0,
+          "badges": [
+            "Hasta 2do al 70% en Almacén y Bebidas"
+          ],
+          "is_new": false
+        },
+        {
+          "product_id": "5660",
+          "ean": "7791813888468",
+          "product_name": "Gaseosa Pepsi  Botella 2 L",
+          "price": 4390.0,
+          "list_price": 362810.0,
           "discount_pct": 0,
           "badges": [
             "Hasta 2do al 70% en Almacén y Bebidas"
@@ -4156,11 +4268,11 @@
           "is_new": false
         },
         {
-          "product_id": "16912",
-          "ean": "7790240042108",
-          "product_name": "Vino Alma Mora Malbec 750cc",
-          "price": 8190.0,
-          "list_price": 676860.0,
+          "product_id": "19552",
+          "ean": "7790895010095",
+          "product_name": "Gaseosa Sin Azúcar Sabor Pomelo 2.25 Lts Schweppes",
+          "price": 6190.0,
+          "list_price": 511570.0,
           "discount_pct": 0,
           "badges": [
             "Hasta 2do al 70% en Almacén y Bebidas"
@@ -4168,11 +4280,11 @@
           "is_new": false
         },
         {
-          "product_id": "16300",
-          "ean": "7790895068096",
-          "product_name": "Coca-cola Zero 2,5 Lt",
-          "price": 5990.0,
-          "list_price": 495041.0,
+          "product_id": "16912",
+          "ean": "7790240042108",
+          "product_name": "Vino Alma Mora Malbec 750cc",
+          "price": 8190.0,
+          "list_price": 676860.0,
           "discount_pct": 0,
           "badges": [
             "Hasta 2do al 70% en Almacén y Bebidas"
@@ -4197,18 +4309,6 @@
           "product_name": "Gaseosa Tónica 1.5 Lts Schweppes",
           "price": 4890.0,
           "list_price": 404132.0,
-          "discount_pct": 0,
-          "badges": [
-            "Hasta 2do al 70% en Almacén y Bebidas"
-          ],
-          "is_new": false
-        },
-        {
-          "product_id": "5660",
-          "ean": "7791813888468",
-          "product_name": "Gaseosa Pepsi  Botella 2 L",
-          "price": 4390.0,
-          "list_price": 362810.0,
           "discount_pct": 0,
           "badges": [
             "Hasta 2do al 70% en Almacén y Bebidas"
@@ -4257,6 +4357,18 @@
           "product_name": "Cerveza Patagonia Lager Del Sur 730cc",
           "price": 7590.0,
           "list_price": 627273.0,
+          "discount_pct": 0,
+          "badges": [
+            "Hasta 2do al 70% en Almacén y Bebidas"
+          ],
+          "is_new": false
+        },
+        {
+          "product_id": "411726",
+          "ean": "7791728248265",
+          "product_name": "Vino Tinto Dulce 750 Ml Santa Julia",
+          "price": 9190.0,
+          "list_price": 759504.0,
           "discount_pct": 0,
           "badges": [
             "Hasta 2do al 70% en Almacén y Bebidas"
@@ -4396,6 +4508,19 @@
           "discount_pct": 0,
           "badges": [
             "Hasta 2do al 70% en Almacén y Bebidas"
+          ],
+          "is_new": false
+        },
+        {
+          "product_id": "313287",
+          "ean": "7792798009107",
+          "product_name": "Cerveza Sin Alcohol 473 Cc Quilmes",
+          "price": 2190.0,
+          "list_price": 180992.0,
+          "discount_pct": 0,
+          "badges": [
+            "2X1 en cervezas seleccionadas",
+            "Hasta 40% off en cervezas 0.0 seleccioandas"
           ],
           "is_new": false
         },
@@ -4654,11 +4779,11 @@
           "is_new": false
         },
         {
-          "product_id": "19552",
-          "ean": "7790895010095",
-          "product_name": "Gaseosa Sin Azúcar Sabor Pomelo 2.25 Lts Schweppes",
-          "price": 6190.0,
-          "list_price": 511570.0,
+          "product_id": "19581",
+          "ean": "7791843008911",
+          "product_name": "Vino Tinto Malbec 750 Cc Nampe",
+          "price": 4790.0,
+          "list_price": 395868.0,
           "discount_pct": 0,
           "badges": [
             "Hasta 2do al 70% en Almacén y Bebidas"
@@ -4683,6 +4808,18 @@
           "product_name": "Vino Familia Gascon Malbec 750 Ml Escorihuela Gascon",
           "price": 8590.0,
           "list_price": 709917.0,
+          "discount_pct": 0,
+          "badges": [
+            "Hasta 2do al 70% en Almacén y Bebidas"
+          ],
+          "is_new": false
+        },
+        {
+          "product_id": "13132",
+          "ean": "7790895000270",
+          "product_name": "Gaseosa Sabor Lima y Limón 354 Ml Sprite",
+          "price": 2690.0,
+          "list_price": 222314.0,
           "discount_pct": 0,
           "badges": [
             "Hasta 2do al 70% en Almacén y Bebidas"
@@ -4762,18 +4899,6 @@
           "is_new": false
         },
         {
-          "product_id": "411726",
-          "ean": "7791728248265",
-          "product_name": "Vino Tinto Dulce 750 Ml Santa Julia",
-          "price": 9190.0,
-          "list_price": 759504.0,
-          "discount_pct": 0,
-          "badges": [
-            "Hasta 2do al 70% en Almacén y Bebidas"
-          ],
-          "is_new": false
-        },
-        {
           "product_id": "410806",
           "ean": "7793147573386",
           "product_name": "Cerveza Miller 473 Ml",
@@ -4810,6 +4935,18 @@
           "is_new": false
         },
         {
+          "product_id": "397139",
+          "ean": "7790639003444",
+          "product_name": "Gaseosa Cunnington Tonica 2.25lt",
+          "price": 2790.0,
+          "list_price": 230579.0,
+          "discount_pct": 0,
+          "badges": [
+            "Hasta 2do al 70% en Almacén y Bebidas"
+          ],
+          "is_new": false
+        },
+        {
           "product_id": "397110",
           "ean": "7790639003857",
           "product_name": "Gaseosa Cunnington Pomelo Suave 2.25lt",
@@ -4839,6 +4976,18 @@
           "product_name": "Espumante Salentein Extra Brut 750 Ml",
           "price": 17890.0,
           "list_price": 1478512.0,
+          "discount_pct": 0,
+          "badges": [
+            "Hasta 2do al 70% en Almacén y Bebidas"
+          ],
+          "is_new": false
+        },
+        {
+          "product_id": "392249",
+          "ean": "7798074864798",
+          "product_name": "Vino Portillo Cabernet Sauvignon 750 Ml",
+          "price": 7190.0,
+          "list_price": 594215.0,
           "discount_pct": 0,
           "badges": [
             "Hasta 2do al 70% en Almacén y Bebidas"
@@ -4914,6 +5063,20 @@
           "discount_pct": 0,
           "badges": [
             "Hasta 2do al 70% en Almacén y Bebidas"
+          ],
+          "is_new": false
+        },
+        {
+          "product_id": "313285",
+          "ean": "7792798009114",
+          "product_name": "Cerveza 473 Ml X 6 U Quilmes",
+          "price": 13290.0,
+          "list_price": 1098347.0,
+          "discount_pct": 0,
+          "badges": [
+            "2X1 en cervezas seleccionadas",
+            "Hasta 2do al 70% en Almacén y Bebidas",
+            "Hasta 40% off en cervezas 0.0 seleccioandas"
           ],
           "is_new": false
         },
@@ -5186,18 +5349,6 @@
           "is_new": false
         },
         {
-          "product_id": "19581",
-          "ean": "7791843008911",
-          "product_name": "Vino Tinto Malbec 750 Cc Nampe",
-          "price": 4790.0,
-          "list_price": 395868.0,
-          "discount_pct": 0,
-          "badges": [
-            "Hasta 2do al 70% en Almacén y Bebidas"
-          ],
-          "is_new": false
-        },
-        {
           "product_id": "18011",
           "ean": "7793147570842",
           "product_name": "Cerveza Pilsner 925 Cc Grolsch",
@@ -5258,18 +5409,6 @@
           "is_new": false
         },
         {
-          "product_id": "13132",
-          "ean": "7790895000270",
-          "product_name": "Gaseosa Sabor Lima y Limón 354 Ml Sprite",
-          "price": 2690.0,
-          "list_price": 222314.0,
-          "discount_pct": 0,
-          "badges": [
-            "Hasta 2do al 70% en Almacén y Bebidas"
-          ],
-          "is_new": false
-        },
-        {
           "product_id": "12841",
           "ean": "7791813421382",
           "product_name": "Gaseosa Paso De Los Toros Pomelo Botella 1,5ltx1",
@@ -5311,18 +5450,6 @@
           "product_name": "Gaseosa Paso De Los Toros Pomelo Botella 500mlx1",
           "price": 1890.0,
           "list_price": 156198.0,
-          "discount_pct": 0,
-          "badges": [
-            "Hasta 2do al 70% en Almacén y Bebidas"
-          ],
-          "is_new": false
-        },
-        {
-          "product_id": "4234",
-          "ean": "7792798012947",
-          "product_name": "Cerveza Quilmes Clásica Lata 473mlx6",
-          "price": 15990.0,
-          "list_price": 1321488.0,
           "discount_pct": 0,
           "badges": [
             "Hasta 2do al 70% en Almacén y Bebidas"
@@ -5414,18 +5541,6 @@
           "is_new": false
         },
         {
-          "product_id": "411882",
-          "ean": "7792798014026",
-          "product_name": "Cerveza Michelob Ultra Sin Gluten 473 Ml",
-          "price": 19690.0,
-          "list_price": 1627273.0,
-          "discount_pct": 0,
-          "badges": [
-            "Hasta 2do al 70% en Almacén y Bebidas"
-          ],
-          "is_new": false
-        },
-        {
           "product_id": "411721",
           "ean": "7791728247817",
           "product_name": "Vino Blanco Sauvignon Blanc 750 Cc Santa Julia",
@@ -5498,18 +5613,6 @@
           "is_new": false
         },
         {
-          "product_id": "397139",
-          "ean": "7790639003444",
-          "product_name": "Gaseosa Cunnington Tonica 2.25lt",
-          "price": 2790.0,
-          "list_price": 230579.0,
-          "discount_pct": 0,
-          "badges": [
-            "Hasta 2do al 70% en Almacén y Bebidas"
-          ],
-          "is_new": false
-        },
-        {
           "product_id": "397136",
           "ean": "7790639003833",
           "product_name": "Gaseosa Cunnington Lima L. Suave 2.25lt",
@@ -5551,18 +5654,6 @@
           "product_name": "Espumante Salentein Blanc De Blancs 750 Ml",
           "price": 20190.0,
           "list_price": 1668595.0,
-          "discount_pct": 0,
-          "badges": [
-            "Hasta 2do al 70% en Almacén y Bebidas"
-          ],
-          "is_new": false
-        },
-        {
-          "product_id": "392249",
-          "ean": "7798074864798",
-          "product_name": "Vino Portillo Cabernet Sauvignon 750 Ml",
-          "price": 7190.0,
-          "list_price": 594215.0,
           "discount_pct": 0,
           "badges": [
             "Hasta 2do al 70% en Almacén y Bebidas"
@@ -5895,18 +5986,6 @@
           "is_new": false
         },
         {
-          "product_id": "43852",
-          "ean": "7793147570927",
-          "product_name": "Cerveza Rubia 473 Ml Warsteiner",
-          "price": 3690.0,
-          "list_price": 304959.0,
-          "discount_pct": 0,
-          "badges": [
-            "Hasta 2do al 70% en Almacén y Bebidas"
-          ],
-          "is_new": false
-        },
-        {
           "product_id": "43024",
           "ean": "7791843008317",
           "product_name": "Vino Chablis 1000 Cc Viñas De Balbo",
@@ -6016,6 +6095,18 @@
           "is_new": false
         },
         {
+          "product_id": "19584",
+          "ean": "7791843008935",
+          "product_name": "Vino Nampe Cabernet Sauvignon 750cc",
+          "price": 4790.0,
+          "list_price": 395868.0,
+          "discount_pct": 0,
+          "badges": [
+            "Hasta 2do al 70% en Almacén y Bebidas"
+          ],
+          "is_new": false
+        },
+        {
           "product_id": "18081",
           "ean": "7790950133288",
           "product_name": "Beb. Hierb. Terma Limon C. 1.35lt",
@@ -6093,6 +6184,18 @@
           "product_name": "Vino Blanco Chardonnay 750 Cc Saint Felicien",
           "price": 17290.0,
           "list_price": 1428926.0,
+          "discount_pct": 0,
+          "badges": [
+            "Hasta 2do al 70% en Almacén y Bebidas"
+          ],
+          "is_new": false
+        },
+        {
+          "product_id": "4220",
+          "ean": "7791203001248",
+          "product_name": "Vino Tinto Cabernet Sauvignon 750 Cc Luigi Bosca",
+          "price": 18590.0,
+          "list_price": 1536364.0,
           "discount_pct": 0,
           "badges": [
             "Hasta 2do al 70% en Almacén y Bebidas"
@@ -6556,30 +6659,6 @@
           "is_new": false
         },
         {
-          "product_id": "34491",
-          "ean": "7791728021301",
-          "product_name": "Vino Zuccardi Serie A Malbec X 750 Cc",
-          "price": 18190.0,
-          "list_price": 1503306.0,
-          "discount_pct": 0,
-          "badges": [
-            "Hasta 2do al 70% en Almacén y Bebidas"
-          ],
-          "is_new": false
-        },
-        {
-          "product_id": "19584",
-          "ean": "7791843008935",
-          "product_name": "Vino Nampe Cabernet Sauvignon 750cc",
-          "price": 4790.0,
-          "list_price": 395868.0,
-          "discount_pct": 0,
-          "badges": [
-            "Hasta 2do al 70% en Almacén y Bebidas"
-          ],
-          "is_new": false
-        },
-        {
           "product_id": "16980",
           "ean": "5000267013602",
           "product_name": "Whisky Johnnie Walker Red Label Botella 1 L",
@@ -6693,18 +6772,6 @@
           "product_name": "Whisky Blenders Pride 1 L",
           "price": 13190.0,
           "list_price": 1090083.0,
-          "discount_pct": 0,
-          "badges": [
-            "Hasta 2do al 70% en Almacén y Bebidas"
-          ],
-          "is_new": false
-        },
-        {
-          "product_id": "4220",
-          "ean": "7791203001248",
-          "product_name": "Vino Tinto Cabernet Sauvignon 750 Cc Luigi Bosca",
-          "price": 18590.0,
-          "list_price": 1536364.0,
           "discount_pct": 0,
           "badges": [
             "Hasta 2do al 70% en Almacén y Bebidas"
@@ -7024,6 +7091,18 @@
           "is_new": false
         },
         {
+          "product_id": "315688",
+          "ean": "7798081661533",
+          "product_name": "Vino Rosado 750 Cc La Celia",
+          "price": 11590.0,
+          "list_price": 957851.0,
+          "discount_pct": 0,
+          "badges": [
+            "Hasta 2do al 70% en Almacén y Bebidas"
+          ],
+          "is_new": false
+        },
+        {
           "product_id": "42999",
           "ean": "7790189042023",
           "product_name": "Vino Tinto Don David Reserva Malbec 750 Cc",
@@ -7125,18 +7204,6 @@
           "product_name": "Vino Tinto Malbec 750 Ml Las Perdices",
           "price": 12390.0,
           "list_price": 1023967.0,
-          "discount_pct": 0,
-          "badges": [
-            "Hasta 2do al 70% en Almacén y Bebidas"
-          ],
-          "is_new": false
-        },
-        {
-          "product_id": "6157",
-          "ean": "7790240042481",
-          "product_name": "Vino Tinto Malbec Gran Reserva Fond De Cave 750 Cc Trapiche",
-          "price": 29590.0,
-          "list_price": 2445455.0,
           "discount_pct": 0,
           "badges": [
             "Hasta 2do al 70% en Almacén y Bebidas"
@@ -7293,18 +7360,6 @@
           "product_name": "Vino Tinto Malbec 750 Ml Colon",
           "price": 6890.0,
           "list_price": 569421.0,
-          "discount_pct": 0,
-          "badges": [
-            "Hasta 2do al 70% en Almacén y Bebidas"
-          ],
-          "is_new": false
-        },
-        {
-          "product_id": "315688",
-          "ean": "7798081661533",
-          "product_name": "Vino Rosado 750 Cc La Celia",
-          "price": 11590.0,
-          "list_price": 957851.0,
           "discount_pct": 0,
           "badges": [
             "Hasta 2do al 70% en Almacén y Bebidas"
@@ -7483,8 +7538,8 @@
           "product_id": "394406",
           "ean": "7790577043298",
           "product_name": "Vino Rutini Dominio Cabernet Sauvignion 750ml",
-          "price": 27490.0,
-          "list_price": 2271901.0,
+          "price": 28690.0,
+          "list_price": 2371074.0,
           "discount_pct": 0,
           "badges": [
             "Hasta 2do al 70% en Almacén y Bebidas"
@@ -7612,30 +7667,6 @@
           "is_new": false
         },
         {
-          "product_id": "11464",
-          "ean": "7798123970111",
-          "product_name": "Vino Tinto Cabernet Sauvignon 750 Cc Las Perdices",
-          "price": 12390.0,
-          "list_price": 1023967.0,
-          "discount_pct": 0,
-          "badges": [
-            "Hasta 2do al 70% en Almacén y Bebidas"
-          ],
-          "is_new": false
-        },
-        {
-          "product_id": "11434",
-          "ean": "7798123970166",
-          "product_name": "Vino Blanco Sauvignon Blanc 750 Cc Las Perdices",
-          "price": 12390.0,
-          "list_price": 1023967.0,
-          "discount_pct": 0,
-          "badges": [
-            "Hasta 2do al 70% en Almacén y Bebidas"
-          ],
-          "is_new": false
-        },
-        {
           "product_id": "4491",
           "ean": "7790197120218",
           "product_name": "Cognac Reserva San Juan 700 Ml",
@@ -7689,46 +7720,6 @@
     {
       "name": "Día",
       "offers": [
-        {
-          "product_id": "315137",
-          "ean": "7793147574352",
-          "product_name": "Cerveza Remix Pomelo Schneider 473 Ml.",
-          "price": 1415.0,
-          "list_price": 2830.0,
-          "discount_pct": 50,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "315190",
-          "ean": "7730908405210",
-          "product_name": "Jugo En Polvo Naranja Rinde Uno 5 Gr.",
-          "price": 350.0,
-          "list_price": 430.0,
-          "discount_pct": 19,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "315188",
-          "ean": "7730908405241",
-          "product_name": "Jugo En Polvo Naranja Banana Rinde Uno 5 Gr.",
-          "price": 350.0,
-          "list_price": 430.0,
-          "discount_pct": 19,
-          "badges": [],
-          "is_new": true
-        },
-        {
-          "product_id": "315184",
-          "ean": "7730908405227",
-          "product_name": "Jugo En Polvo Mix Frutal Rinde Uno 5 Gr.",
-          "price": 350.0,
-          "list_price": 430.0,
-          "discount_pct": 19,
-          "badges": [],
-          "is_new": true
-        },
         {
           "product_id": "241795",
           "ean": "7793147570866",
@@ -7835,6 +7826,16 @@
           "product_name": "Vino Cabernet Sauvignon Santa Julia 750 Ml.",
           "price": 3419.0,
           "list_price": 6837.0,
+          "discount_pct": 50,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "315137",
+          "ean": "7793147574352",
+          "product_name": "Cerveza Remix Pomelo Schneider 473 Ml.",
+          "price": 1415.0,
+          "list_price": 2830.0,
           "discount_pct": 50,
           "badges": [],
           "is_new": false
@@ -8010,6 +8011,16 @@
           "is_new": false
         },
         {
+          "product_id": "267042",
+          "ean": "7791540051838",
+          "product_name": "Vino Dada Lata Sweet 355 Ml.",
+          "price": 2266.0,
+          "list_price": 3776.0,
+          "discount_pct": 40,
+          "badges": [],
+          "is_new": false
+        },
+        {
           "product_id": "248818",
           "ean": "7791728233490",
           "product_name": "Vino La Selección Malbec Santa Julia 750 Cc.",
@@ -8025,16 +8036,6 @@
           "product_name": "Vino Tinto Malbec Origen Trapiche 750 Ml.",
           "price": 5149.0,
           "list_price": 8581.0,
-          "discount_pct": 40,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "267042",
-          "ean": "7791540051838",
-          "product_name": "Vino Dada Lata Sweet 355 Ml.",
-          "price": 2266.0,
-          "list_price": 3776.0,
           "discount_pct": 40,
           "badges": [],
           "is_new": false
@@ -8100,9 +8101,9 @@
           "is_new": false
         },
         {
-          "product_id": "181247",
-          "ean": "7798065730033",
-          "product_name": "Agua Mineral sin Gas Sierra de los Padres 2 Lts.",
+          "product_id": "259401",
+          "ean": "4002631024161",
+          "product_name": "Cerveza Lager St. Wendeler 500 Ml.",
           "price": 1350.0,
           "list_price": 2100.0,
           "discount_pct": 36,
@@ -8110,9 +8111,9 @@
           "is_new": false
         },
         {
-          "product_id": "259401",
-          "ean": "4002631024161",
-          "product_name": "Cerveza Lager St. Wendeler 500 Ml.",
+          "product_id": "181247",
+          "ean": "7798065730033",
+          "product_name": "Agua Mineral sin Gas Sierra de los Padres 2 Lts.",
           "price": 1350.0,
           "list_price": 2100.0,
           "discount_pct": 36,
@@ -8150,16 +8151,6 @@
           "is_new": false
         },
         {
-          "product_id": "115202",
-          "ean": "7792798003709",
-          "product_name": "Cerveza Corona Botella No Retornable 330 Ml.",
-          "price": 3178.5,
-          "list_price": 4890.0,
-          "discount_pct": 35,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "45480",
           "ean": "7791813828464",
           "product_name": "Gaseosa Cola Black Pepsi 2 Lt.",
@@ -8185,6 +8176,16 @@
           "product_name": "Cerveza Warsteiner 473 Ml.",
           "price": 2398.5,
           "list_price": 3690.0,
+          "discount_pct": 35,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "115202",
+          "ean": "7792798003709",
+          "product_name": "Cerveza Corona Botella No Retornable 330 Ml.",
+          "price": 3178.5,
+          "list_price": 4890.0,
           "discount_pct": 35,
           "badges": [],
           "is_new": false
@@ -8750,16 +8751,6 @@
           "is_new": false
         },
         {
-          "product_id": "99936",
-          "ean": "7794450090935",
-          "product_name": "Vino Tinto Estiba I Cabernet Sauvignon 750 Ml.",
-          "price": 5103.0,
-          "list_price": 7290.0,
-          "discount_pct": 30,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "5141",
           "ean": "7790984000884",
           "product_name": "Vino Tinto Malbec Viñas Del Tango 750 Ml.",
@@ -8785,6 +8776,16 @@
           "product_name": "Vino Chardonnay Los Intocables 750 Ml.",
           "price": 9204.0,
           "list_price": 13149.0,
+          "discount_pct": 30,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "77505",
+          "ean": "7790984005162",
+          "product_name": "Vino Tinto Pico De Oro 1 Lt.",
+          "price": 1727.0,
+          "list_price": 2467.0,
           "discount_pct": 30,
           "badges": [],
           "is_new": false
@@ -8880,21 +8881,21 @@
           "is_new": false
         },
         {
-          "product_id": "80481",
-          "ean": "7790240107500",
-          "product_name": "Vino Tinto Trapiche Alaris Cabernet Sauvignon 750 ml.",
-          "price": 4038.0,
-          "list_price": 5769.0,
+          "product_id": "99936",
+          "ean": "7794450090935",
+          "product_name": "Vino Tinto Estiba I Cabernet Sauvignon 750 Ml.",
+          "price": 5103.0,
+          "list_price": 7290.0,
           "discount_pct": 30,
           "badges": [],
           "is_new": false
         },
         {
-          "product_id": "77505",
-          "ean": "7790984005162",
-          "product_name": "Vino Tinto Pico De Oro 1 Lt.",
-          "price": 1727.0,
-          "list_price": 2467.0,
+          "product_id": "80481",
+          "ean": "7790240107500",
+          "product_name": "Vino Tinto Trapiche Alaris Cabernet Sauvignon 750 ml.",
+          "price": 4038.0,
+          "list_price": 5769.0,
           "discount_pct": 30,
           "badges": [],
           "is_new": false
@@ -8950,21 +8951,21 @@
           "is_new": false
         },
         {
-          "product_id": "24872",
-          "ean": "8480017248725",
-          "product_name": "Agua Mineral Sin Gas Dia 600 Ml.",
-          "price": 750.0,
-          "list_price": 1050.0,
-          "discount_pct": 29,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "180721",
           "ean": "7794450000781",
           "product_name": "Vino Tinto Alamos Malbec 750 Ml.",
           "price": 7990.0,
           "list_price": 11265.0,
+          "discount_pct": 29,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "24872",
+          "ean": "8480017248725",
+          "product_name": "Agua Mineral Sin Gas Dia 600 Ml.",
+          "price": 750.0,
+          "list_price": 1050.0,
           "discount_pct": 29,
           "badges": [],
           "is_new": false
@@ -9210,9 +9211,9 @@
           "is_new": false
         },
         {
-          "product_id": "114263",
-          "ean": "7798062540284",
-          "product_name": "Agua Sin Gas Pomelo Vds Levite 2,25 Lt.",
+          "product_id": "151052",
+          "ean": "7790315000880",
+          "product_name": "Agua Sin Gas Manzana Vds Levite 2,25 Lt.",
           "price": 2850.0,
           "list_price": 3800.0,
           "discount_pct": 25,
@@ -9220,9 +9221,9 @@
           "is_new": false
         },
         {
-          "product_id": "151052",
-          "ean": "7790315000880",
-          "product_name": "Agua Sin Gas Manzana Vds Levite 2,25 Lt.",
+          "product_id": "114263",
+          "ean": "7798062540284",
+          "product_name": "Agua Sin Gas Pomelo Vds Levite 2,25 Lt.",
           "price": 2850.0,
           "list_price": 3800.0,
           "discount_pct": 25,
@@ -9440,21 +9441,21 @@
           "is_new": false
         },
         {
-          "product_id": "227723",
-          "ean": "7790950133356",
-          "product_name": "Amargo Patagonia Terma X 1,35 Lt.",
-          "price": 2400.0,
-          "list_price": 3210.0,
-          "discount_pct": 25,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "206290",
           "ean": "7791843008935",
           "product_name": "Vino Cabernet Nampe 750 Ml.",
           "price": 3490.0,
           "list_price": 4631.0,
+          "discount_pct": 25,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "55469",
+          "ean": "7790950133332",
+          "product_name": "Amargo Terma Cuyano 1,35 Lt.",
+          "price": 2400.0,
+          "list_price": 3210.0,
           "discount_pct": 25,
           "badges": [],
           "is_new": false
@@ -9480,21 +9481,21 @@
           "is_new": false
         },
         {
-          "product_id": "223459",
-          "ean": "7791843008317",
-          "product_name": "Vino Blanco Viñas de Balbo Chablis 1,25 Lt.",
-          "price": 2790.0,
-          "list_price": 3700.0,
+          "product_id": "227723",
+          "ean": "7790950133356",
+          "product_name": "Amargo Patagonia Terma X 1,35 Lt.",
+          "price": 2400.0,
+          "list_price": 3210.0,
           "discount_pct": 25,
           "badges": [],
           "is_new": false
         },
         {
-          "product_id": "55469",
-          "ean": "7790950133332",
-          "product_name": "Amargo Terma Cuyano 1,35 Lt.",
-          "price": 2400.0,
-          "list_price": 3210.0,
+          "product_id": "223459",
+          "ean": "7791843008317",
+          "product_name": "Vino Blanco Viñas de Balbo Chablis 1,25 Lt.",
+          "price": 2790.0,
+          "list_price": 3700.0,
           "discount_pct": 25,
           "badges": [],
           "is_new": false
@@ -9820,21 +9821,21 @@
           "is_new": false
         },
         {
-          "product_id": "313287",
-          "ean": "7790197120218",
-          "product_name": "Coñac Extra Añejo Reserva San Juan 750 Ml.",
-          "price": 9990.0,
-          "list_price": 12700.0,
-          "discount_pct": 21,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "209205",
           "ean": "7792410532426",
           "product_name": "Ron Añejo Havana Club 750 Ml.",
           "price": 15990.0,
           "list_price": 20205.0,
+          "discount_pct": 21,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "313287",
+          "ean": "7790197120218",
+          "product_name": "Coñac Extra Añejo Reserva San Juan 750 Ml.",
+          "price": 9990.0,
+          "list_price": 12700.0,
           "discount_pct": 21,
           "badges": [],
           "is_new": false
@@ -9930,6 +9931,16 @@
           "is_new": false
         },
         {
+          "product_id": "313781",
+          "ean": "7791813421412",
+          "product_name": "Gaseosa Pomelo Paso de los Toros 2 Lt.",
+          "price": 3640.0,
+          "list_price": 4550.0,
+          "discount_pct": 20,
+          "badges": [],
+          "is_new": false
+        },
+        {
           "product_id": "313332",
           "ean": "9002490288341",
           "product_name": "Bebida Energizante Summer Edition Free Pomelo Rosado Red Bull 250 Ml.",
@@ -10010,31 +10021,11 @@
           "is_new": false
         },
         {
-          "product_id": "313781",
-          "ean": "7791813421412",
-          "product_name": "Gaseosa Pomelo Paso de los Toros 2 Lt.",
-          "price": 3640.0,
-          "list_price": 4550.0,
-          "discount_pct": 20,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "312898",
           "ean": "7791813434023",
           "product_name": "Bebida Con Sales Mora Zero Gatorade 400 Ml.",
           "price": 1280.0,
           "list_price": 1600.0,
-          "discount_pct": 20,
-          "badges": [],
-          "is_new": false
-        },
-        {
-          "product_id": "266885",
-          "ean": "90415418",
-          "product_name": "Bebida Energizante Sin Azucar Red Bull 250 Ml.",
-          "price": 3039.2,
-          "list_price": 3799.0,
           "discount_pct": 20,
           "badges": [],
           "is_new": false
@@ -10080,6 +10071,16 @@
           "is_new": false
         },
         {
+          "product_id": "266885",
+          "ean": "90415418",
+          "product_name": "Bebida Energizante Sin Azucar Red Bull 250 Ml.",
+          "price": 3039.2,
+          "list_price": 3799.0,
+          "discount_pct": 20,
+          "badges": [],
+          "is_new": false
+        },
+        {
           "product_id": "5609",
           "ean": "7790984004981",
           "product_name": "Vino Tinto Malbec Muñeco Rebelde 750 Ml.",
@@ -10100,16 +10101,6 @@
           "is_new": false
         },
         {
-          "product_id": "300769",
-          "ean": "7791728247817",
-          "product_name": "Vino Blanco Sauvignon Santa Julia 750 Ml.",
-          "price": 5490.0,
-          "list_price": 6837.0,
-          "discount_pct": 20,
-          "badges": [],
-          "is_new": false
-        },
-        {
           "product_id": "297748",
           "ean": "7791728247114",
           "product_name": "Vino Tinto Malbec Santa Julia 750 Ml.",
@@ -10120,9 +10111,49 @@
           "is_new": false
         },
         {
+          "product_id": "300769",
+          "ean": "7791728247817",
+          "product_name": "Vino Blanco Sauvignon Santa Julia 750 Ml.",
+          "price": 5490.0,
+          "list_price": 6837.0,
+          "discount_pct": 20,
+          "badges": [],
+          "is_new": false
+        },
+        {
           "product_id": "315189",
           "ean": "7730908405234",
           "product_name": "Jugo En Polvo Naranja Manzana Rinde Uno 5 Gr.",
+          "price": 350.0,
+          "list_price": 430.0,
+          "discount_pct": 19,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "315190",
+          "ean": "7730908405210",
+          "product_name": "Jugo En Polvo Naranja Rinde Uno 5 Gr.",
+          "price": 350.0,
+          "list_price": 430.0,
+          "discount_pct": 19,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "315188",
+          "ean": "7730908405241",
+          "product_name": "Jugo En Polvo Naranja Banana Rinde Uno 5 Gr.",
+          "price": 350.0,
+          "list_price": 430.0,
+          "discount_pct": 19,
+          "badges": [],
+          "is_new": false
+        },
+        {
+          "product_id": "315184",
+          "ean": "7730908405227",
+          "product_name": "Jugo En Polvo Mix Frutal Rinde Uno 5 Gr.",
           "price": 350.0,
           "list_price": 430.0,
           "discount_pct": 19,
@@ -10850,8 +10881,8 @@
   ],
   "vital_flyers": [
     {
-      "title": "¡Ahorrá y disfrutá!",
-      "pdf_url": "https://www.vital.com.ar/wp-content/uploads/folletos/2026/11/118732.pdf",
+      "title": "Ofertas fin de semana | 20.11 al 23.11",
+      "pdf_url": "https://www.vital.com.ar/wp-content/uploads/folletos/2026/11/118761.pdf",
       "is_new": true
     },
     {
@@ -10860,7 +10891,7 @@
       "is_new": false
     },
     {
-      "title": "Especial Fiestas | 16.11 al 22.11",
+      "title": "Especial Fiestas | 20.11 al 30.11",
       "pdf_url": "https://www.vital.com.ar/wp-content/uploads/folletos/2026/11/118440.pdf",
       "is_new": false
     },
